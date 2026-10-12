@@ -25,19 +25,19 @@ def shell(title, body, nav=''):
 <body><header><a class="brand" href="index.html">GARVEE <span>内容质量审核</span></a><span class="edition">2026.10 / 审核快照</span></header>{nav}<main>{body}</main><footer>基于已完成的审核报告生成 · Google 指导与 CORE-EEAT 分列 · 非 Google 官方评分<br>未重新调用模型，未执行 AI 检测或查重。报告只代表本次证据范围。</footer></body></html>'''
 
 def render(d):
-    a = d['aaron']
+    a = d['framework_result']
     observed = datetime.fromisoformat(d['observed_at']).astimezone(ZoneInfo('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M')
     body = f'''<div class="eyebrow">ARTICLE QUALITY REVIEW</div><h1>{E(d['display_title'])}</h1><p class="subtitle">{E(d['article']['title'])}</p><p class="meta">{link(d['article']['canonical_url'], '查看原文 ↗')} · 审核时间 {observed}（北京时间）</p>
 <div class="metrics"><div><span>证据覆盖率</span><strong>{a['evidence_coverage']}<small>%</small></strong><p>CORE-EEAT 已有证据覆盖</p></div><div><span>审核结论</span><strong class="text-metric">需要补证据</strong><p>{E(a['status'])} / {E(a['verdict'])}</p></div><div><span>质量总分</span><strong class="text-metric">暂未评分</strong><p>{E(a['score_state'])}</p></div></div>
 <aside class="notice"><b>证据覆盖率不是质量得分。</b>缺失或无法核验的证据保持“未知”，不等于文章已被判定低质。当前审核范围有限，尚需人工校准判断；不预测搜索排名。</aside>
-<nav class="toc" aria-label="报告目录"><a href="#changes">修改建议</a><a href="#google">Google 指导</a><a href="#aaron">CORE-EEAT</a><a href="#sources">引用出处</a><a href="#bounds">范围与版本</a></nav>
+<nav class="toc" aria-label="报告目录"><a href="#changes">修改建议</a><a href="#google">Google 指导</a><a href="#framework">CORE-EEAT</a><a href="#sources">引用出处</a><a href="#bounds">范围与版本</a></nav>
 <section id="changes"><div class="section-head"><h2>优先修改建议</h2><span>{len(d['recommendations'])} 项</span></div><div class="changes">'''
     for r in d['recommendations']:
         body += f'<article class="change"><span class="priority {E(r["priority"])}">{E(r["priority"])}</span><div><h3>{E(r["action"])}</h3><span class="code">{E(r["item_id"])}</span>{quotes(d,r["item_id"])}</div></article>'
     body += '</div></section><section id="google"><h2>Google 内容指导</h2><p class="section-note">逐项保留官方依据与原审核结论。“AI 内容指导”是政策证据审查，不是 AI 写作概率检测。</p><div class="findings">'
     for f in d['google_findings']:
         body += f'<article class="finding"><div class="finding-head"><h3>{E(NAMES.get(f["id"],f["id"]))} <small>{E(f["id"])}</small></h3><span class="badge {E(f["state"])}">{E(LABELS.get(f["state"],f["state"]))}</span></div><p>{E(f["reason"])}</p>{quotes(d,f["id"])}<p class="source">{link(f["source_url"],"Google 官方依据 ↗")}</p></article>'
-    body += '</div></section><section id="aaron"><h2>CORE-EEAT 证据框架</h2><p class="section-note">Aaron 框架结果独立展示。以下各维度显示证据覆盖率，均不是质量得分。</p><div class="dimensions">'
+    body += '</div></section><section id="framework"><h2>CORE-EEAT 证据框架</h2><p class="section-note">内容质量与可信度评估结果独立展示。以下各维度显示证据覆盖率，均不是质量得分。</p><div class="dimensions">'
     for key, value in a['dimension_coverage'].items():
         body += f'<div><span>{E(key)} · {E(DIMS.get(key,key))}</span><b>{value}%</b><progress value="{value}" max="100">{value}%</progress></div>'
     body += '</div><details><summary>查看全部 80 项框架观察与对应证据</summary><div class="findings">'
@@ -53,6 +53,6 @@ def render(d):
 reports = [json.loads(p.read_text()) for p in sorted((ROOT/'reports').glob('*.json'))]
 for d in reports:
     (ROOT/(d['slug']+'.html')).write_text(render(d))
-cards = ''.join(f'<a class="report-card" href="{E(d["slug"])}.html"><div class="eyebrow">{E(d["category"])}</div><h2>{E(d["display_title"])}</h2><p>{E(d["article"]["title"])}</p><div class="card-bottom"><span>证据覆盖率 <b>{d["aaron"]["evidence_coverage"]}%</b></span><span>查看报告 →</span></div></a>' for d in reports)
+cards = ''.join(f'<a class="report-card" href="{E(d["slug"])}.html"><div class="eyebrow">{E(d["category"])}</div><h2>{E(d["display_title"])}</h2><p>{E(d["article"]["title"])}</p><div class="card-bottom"><span>证据覆盖率 <b>{d["framework_result"]["evidence_coverage"]}%</b></span><span>查看报告 →</span></div></a>' for d in reports)
 (ROOT/'index.html').write_text(shell('文章审核报告',f'<div class="eyebrow">CONTENT QUALITY / GOOGLE / CORE-EEAT</div><h1>文章内容质量审核</h1><p class="subtitle">把结论、证据和修改建议放在一起，便于逐项复核与编辑。</p><aside class="notice"><b>当前共 2 篇完整文章报告。</b>未执行 AI 检测或查重。证据覆盖率不等于质量得分；两篇均需补充证据，暂未评分。</aside><div class="report-grid">{cards}</div><p class="section-note">报告为 2026 年 10 月 12 日审核快照，公开发布不会重新审核或自动改变结论。</p>'))
 print('Generated index and',len(reports),'article pages')

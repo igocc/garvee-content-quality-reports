@@ -98,7 +98,7 @@ Evidence coverage: 52%
 
 ## Frozen versions
 
-{"aaron": {"archive_sha256": "f071c6dafc546db850b78166336e254fc1d5f7439eb68d18132a694eb93b5021", "catalog_version": "20.1.0", "commit": "a342b203bb969762ee085c51b249896958e2ebd4", "release": "v20.1.0"}, "detector": "Originality-v3", "google": "google-2026-10-12", "google_hash": "dbc1fcd0171dbfcf7eb7ad73aeb941db6a36deac5194c39bec3cabf620c6d73c", "model": {"name": "gpt-6.1-sol", "provider": "codex-cli"}, "service": "0.1.0", "service_source_hash": "93c7384adecc2be239ad297dd004ce005890e54da99b5806934422eecf114aef", "version_set": "initial-4e293d2811a10e55"}
+{"quality_framework": {"archive_sha256": "f071c6dafc546db850b78166336e254fc1d5f7439eb68d18132a694eb93b5021", "catalog_version": "20.1.0", "commit": "a342b203bb969762ee085c51b249896958e2ebd4", "release": "v20.1.0"}, "detector": "Originality-v3", "google": "google-2026-10-12", "google_hash": "dbc1fcd0171dbfcf7eb7ad73aeb941db6a36deac5194c39bec3cabf620c6d73c", "model": {"name": "gpt-6.1-sol", "provider": "codex-cli"}, "service": "0.1.0", "service_source_hash": "93c7384adecc2be239ad297dd004ce005890e54da99b5806934422eecf114aef", "version_set": "initial-4e293d2811a10e55"}
 
 ## Limitations
 

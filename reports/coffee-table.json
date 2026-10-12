@@ -1285,7 +1285,40 @@
       "state": "unknown"
     }
   ],
-  "aaron": {
+  "versions": {
+    "detector": "Originality-v3",
+    "google": "google-2026-10-12",
+    "google_hash": "dbc1fcd0171dbfcf7eb7ad73aeb941db6a36deac5194c39bec3cabf620c6d73c",
+    "model": {
+      "name": "gpt-6.1-sol",
+      "provider": "codex-cli"
+    },
+    "service": "0.1.0",
+    "service_source_hash": "93c7384adecc2be239ad297dd004ce005890e54da99b5806934422eecf114aef",
+    "version_set": "initial-4e293d2811a10e55",
+    "quality_framework": {
+      "archive_sha256": "f071c6dafc546db850b78166336e254fc1d5f7439eb68d18132a694eb93b5021",
+      "catalog_version": "20.1.0",
+      "commit": "a342b203bb969762ee085c51b249896958e2ebd4",
+      "release": "v20.1.0"
+    }
+  },
+  "slug": "coffee-table",
+  "display_title": "升降茶几与普通茶几对比",
+  "category": "家具选购指南",
+  "sources": [
+    {
+      "id": "reference-1",
+      "url": "https://www.garvee.com/collections/coffee-tables?utm_source=blog&utm_medium=article&utm_campaign=Blog_coffee-tables&utm_term=Coffee_Table&utm_content=26-153_Lift_top_vs_Regular_Coffee_Table_20260928&filter.v.availability=true",
+      "status": "retrieved"
+    },
+    {
+      "id": "reference-2",
+      "url": "https://www.garvee.com/blogs/buying-guides/coffee-table-buying-guide",
+      "status": "retrieved"
+    }
+  ],
+  "framework_result": {
     "advisory": true,
     "cap_applied": false,
     "catalog_version": "20.1.0",
@@ -1465,38 +1498,5 @@
     "verdict": "UNDECIDED",
     "veto_count": 0,
     "veto_items_failed": []
-  },
-  "versions": {
-    "aaron": {
-      "archive_sha256": "f071c6dafc546db850b78166336e254fc1d5f7439eb68d18132a694eb93b5021",
-      "catalog_version": "20.1.0",
-      "commit": "a342b203bb969762ee085c51b249896958e2ebd4",
-      "release": "v20.1.0"
-    },
-    "detector": "Originality-v3",
-    "google": "google-2026-10-12",
-    "google_hash": "dbc1fcd0171dbfcf7eb7ad73aeb941db6a36deac5194c39bec3cabf620c6d73c",
-    "model": {
-      "name": "gpt-6.1-sol",
-      "provider": "codex-cli"
-    },
-    "service": "0.1.0",
-    "service_source_hash": "93c7384adecc2be239ad297dd004ce005890e54da99b5806934422eecf114aef",
-    "version_set": "initial-4e293d2811a10e55"
-  },
-  "slug": "coffee-table",
-  "display_title": "升降茶几与普通茶几对比",
-  "category": "家具选购指南",
-  "sources": [
-    {
-      "id": "reference-1",
-      "url": "https://www.garvee.com/collections/coffee-tables?utm_source=blog&utm_medium=article&utm_campaign=Blog_coffee-tables&utm_term=Coffee_Table&utm_content=26-153_Lift_top_vs_Regular_Coffee_Table_20260928&filter.v.availability=true",
-      "status": "retrieved"
-    },
-    {
-      "id": "reference-2",
-      "url": "https://www.garvee.com/blogs/buying-guides/coffee-table-buying-guide",
-      "status": "retrieved"
-    }
-  ]
+  }
 }

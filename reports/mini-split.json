@@ -1382,7 +1382,60 @@
       "state": "partial"
     }
   ],
-  "aaron": {
+  "versions": {
+    "detector": "Originality-v3",
+    "google": "google-2026-10-12",
+    "google_hash": "dbc1fcd0171dbfcf7eb7ad73aeb941db6a36deac5194c39bec3cabf620c6d73c",
+    "model": {
+      "name": "gpt-6.1-sol",
+      "provider": "codex-cli"
+    },
+    "service": "0.1.0",
+    "service_source_hash": "93c7384adecc2be239ad297dd004ce005890e54da99b5806934422eecf114aef",
+    "version_set": "initial-4e293d2811a10e55",
+    "quality_framework": {
+      "archive_sha256": "f071c6dafc546db850b78166336e254fc1d5f7439eb68d18132a694eb93b5021",
+      "catalog_version": "20.1.0",
+      "commit": "a342b203bb969762ee085c51b249896958e2ebd4",
+      "release": "v20.1.0"
+    }
+  },
+  "slug": "mini-split",
+  "display_title": "车库／工作室／健身房空调选购",
+  "category": "空调选购指南",
+  "sources": [
+    {
+      "id": "reference-1",
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "status": "unavailable"
+    },
+    {
+      "id": "reference-2",
+      "url": "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps",
+      "status": "unavailable"
+    },
+    {
+      "id": "reference-3",
+      "url": "https://www.epa.gov/mold/mold-course-chapter-2",
+      "status": "retrieved"
+    },
+    {
+      "id": "reference-4",
+      "url": "https://support.garvee.com/p/QVRUI",
+      "status": "unavailable"
+    },
+    {
+      "id": "reference-5",
+      "url": "https://www.garvee.com/blogs/buying-guides/portable-ac-vs-mini-split-ac",
+      "status": "retrieved"
+    },
+    {
+      "id": "reference-6",
+      "url": "https://www.garvee.com/products/garvee-9000-btu-mini-split-air-phk-35xygtmt?utm_source=blog&utm_medium=article&utm_campaign=blog_mini_split_for_garage&utm_content=footer_recommendation_9000_btu",
+      "status": "retrieved"
+    }
+  ],
+  "framework_result": {
     "advisory": true,
     "cap_applied": false,
     "catalog_version": "20.1.0",
@@ -1554,58 +1607,5 @@
     "verdict": "UNDECIDED",
     "veto_count": 0,
     "veto_items_failed": []
-  },
-  "versions": {
-    "aaron": {
-      "archive_sha256": "f071c6dafc546db850b78166336e254fc1d5f7439eb68d18132a694eb93b5021",
-      "catalog_version": "20.1.0",
-      "commit": "a342b203bb969762ee085c51b249896958e2ebd4",
-      "release": "v20.1.0"
-    },
-    "detector": "Originality-v3",
-    "google": "google-2026-10-12",
-    "google_hash": "dbc1fcd0171dbfcf7eb7ad73aeb941db6a36deac5194c39bec3cabf620c6d73c",
-    "model": {
-      "name": "gpt-6.1-sol",
-      "provider": "codex-cli"
-    },
-    "service": "0.1.0",
-    "service_source_hash": "93c7384adecc2be239ad297dd004ce005890e54da99b5806934422eecf114aef",
-    "version_set": "initial-4e293d2811a10e55"
-  },
-  "slug": "mini-split",
-  "display_title": "车库／工作室／健身房空调选购",
-  "category": "空调选购指南",
-  "sources": [
-    {
-      "id": "reference-1",
-      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
-      "status": "unavailable"
-    },
-    {
-      "id": "reference-2",
-      "url": "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps",
-      "status": "unavailable"
-    },
-    {
-      "id": "reference-3",
-      "url": "https://www.epa.gov/mold/mold-course-chapter-2",
-      "status": "retrieved"
-    },
-    {
-      "id": "reference-4",
-      "url": "https://support.garvee.com/p/QVRUI",
-      "status": "unavailable"
-    },
-    {
-      "id": "reference-5",
-      "url": "https://www.garvee.com/blogs/buying-guides/portable-ac-vs-mini-split-ac",
-      "status": "retrieved"
-    },
-    {
-      "id": "reference-6",
-      "url": "https://www.garvee.com/products/garvee-9000-btu-mini-split-air-phk-35xygtmt?utm_source=blog&utm_medium=article&utm_campaign=blog_mini_split_for_garage&utm_content=footer_recommendation_9000_btu",
-      "status": "retrieved"
-    }
-  ]
+  }
 }
