@@ -1,0 +1,1502 @@
+{
+  "article": {
+    "canonical_url": "https://www.garvee.com/blogs/buying-guides/lift-top-vs-regular-coffee-table",
+    "content_hash": "db76be37b4fe2b5129f2f4aab044b0ad89ed1404fe533b882137ac730aa85084",
+    "title": "Lift Top vs. Regular Coffee Table: Pros, Cons, Storage & Stability Compared",
+    "url": "https://www.garvee.com/blogs/buying-guides/lift-top-vs-regular-coffee-table"
+  },
+  "audit_id": "084cd3ac-2102-46bc-a76c-1697a0af83b8",
+  "observed_at": "2026-10-12T03:46:22.518028+00:00",
+  "google_findings": [
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "If you work or eat from the sofa pretty often, the extra functions can be genuinely useful.",
+          "source_id": "body"
+        }
+      ],
+      "id": "G-INTENT",
+      "reason": "正文围绕工作、收纳和稳定性提供选择建议，符合官方强调的读者目的且没有实质标题错配。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "pass"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "The calculation changes if you already have a comfortable desk, a dining table, and enough storage.",
+          "source_id": "body"
+        }
+      ],
+      "id": "G-VALUE",
+      "reason": "按已有家具分析额外功能的价值符合官方实用性方向，但原创性及相对其他来源的增量尚未证实。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Experts advise checking bolts at least every three months.",
+          "source_id": "body"
+        },
+        {
+          "quote": "Always follow the model’s stated lift top coffee table raised weight limit.",
+          "source_id": "body"
+        }
+      ],
+      "id": "G-FACTS",
+      "reason": "正文明确型号适用边界，但维护周期等事实缺少可识别来源，未充分满足官方可靠性指导。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-WHO",
+      "reason": "作者元数据仅声明姓名，未提供可核验的真实身份、相关专业背景或作者页面内容。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-HOW",
+      "reason": "未提供内容制作过程或测试记录，无法判断实际制作方式及是否存在需要解释的测试过程。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-AI",
+      "reason": "没有自动化或人工智能使用证据，无法评估官方针对已知自动化内容的质量控制指导。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-SPAM",
+      "reason": "单篇文章及两份参考文本不足以证明操纵意图、规模化生产或其他适用的垃圾内容行为。",
+      "source_url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "state": "unknown"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "A lift-top table usually has more hardware to assemble and maintain, may require extra clearance when opened, and can have a lower load limit in the raised position.",
+          "source_id": "body"
+        }
+      ],
+      "id": "G-REVIEWS",
+      "reason": "类别比较解释了用途和取舍，符合部分官方评测建议，但未提供支持这些建议的第一手研究证据。",
+      "source_url": "https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-EXPERIENCE",
+      "reason": "没有页面渲染、移动端检查、性能或安全测量，无法建立官方页面体验问题。",
+      "source_url": "https://developers.google.com/search/docs/appearance/page-experience",
+      "state": "unknown"
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "为三个月检查周期及承重示例补充真实可访问的制造商说明，注明型号和适用条件，无法核实则删除或改写。",
+      "item_id": "G-FACTS",
+      "priority": "P1"
+    },
+    {
+      "action": "将匿名制造商和专家归因替换为可核验的名称及出处，无法确定来源时撤回相关归因。",
+      "item_id": "R07",
+      "priority": "P1"
+    },
+    {
+      "action": "修订咖啡桌集合参考页中的设备、菜单和供水供气文字，使其与家具选购主题一致。",
+      "item_id": "R08",
+      "priority": "P1"
+    },
+    {
+      "action": "将重复的日常习惯句改写为一句清楚的选择建议，并检查相邻段落的重复和语法。",
+      "item_id": "O09",
+      "priority": "P2"
+    },
+    {
+      "action": "在结论补充测量开合尺寸、确认承重及检查机构稳定性的下一步行动。",
+      "item_id": "C10",
+      "priority": "P2"
+    },
+    {
+      "action": "明确本文是类别选购指南，并说明不提供具体型号实测排名或长期耐久性结论。",
+      "item_id": "C05",
+      "priority": "P2"
+    },
+    {
+      "action": "如需加强评测属性，提供真实的测试对象、条件、结果及过程证据；没有实测则明确建议的资料依据。",
+      "item_id": "G-REVIEWS",
+      "priority": "P2"
+    },
+    {
+      "action": "将现有购买清单提供为可下载文件，并保留型号差异和安全限制。",
+      "item_id": "E07",
+      "priority": "P2"
+    }
+  ],
+  "located_evidence": {
+    "C01": [
+      {
+        "end": 20601,
+        "quote": "Stability, opening clearance, raised weight limits, assembly, cleaning, and long-term maintenance all affect how practical the table feels",
+        "source_id": "body",
+        "start": 20463
+      }
+    ],
+    "C02": [
+      {
+        "end": 588,
+        "quote": "A regular coffee table gives you a fixed top, steady and uncomplicated, while a lift top coffee table adds a moveable top",
+        "source_id": "body",
+        "start": 467
+      }
+    ],
+    "C03": [
+      {
+        "end": 20685,
+        "quote": "Can you work on a lift top coffee table?",
+        "source_id": "body",
+        "start": 20645
+      },
+      {
+        "end": 20927,
+        "quote": "Can you eat on a lift top coffee table?",
+        "source_id": "body",
+        "start": 20888
+      },
+      {
+        "end": 21565,
+        "quote": "Are lift top coffee tables safe for children?",
+        "source_id": "body",
+        "start": 21520
+      }
+    ],
+    "C04": [
+      {
+        "end": 644,
+        "quote": "A regular coffee table gives you a fixed top, steady and uncomplicated, while a lift top coffee table adds a moveable top that can pull the work or dining surface closer to you.",
+        "source_id": "body",
+        "start": 467
+      }
+    ],
+    "C05": [
+      {
+        "end": 1572,
+        "quote": "This guide takes a practical look at both options, comparing how they handle work, dining, storage, and daily use.",
+        "source_id": "body",
+        "start": 1458
+      }
+    ],
+    "C06": [
+      {
+        "end": 840,
+        "quote": "If you are furnishing an apartment or trying to make a small living room work harder",
+        "source_id": "body",
+        "start": 756
+      }
+    ],
+    "C07": [
+      {
+        "end": 1250,
+        "quote": "However, more functionality does not automatically mean better. Moving parts can complicate stability, cleaning, assembly, and maintenance.",
+        "source_id": "body",
+        "start": 1111
+      }
+    ],
+    "C08": [
+      {
+        "end": 3076,
+        "quote": "If you work or eat from the sofa pretty often, the extra functions can be genuinely useful.",
+        "source_id": "body",
+        "start": 2985
+      },
+      {
+        "end": 3193,
+        "quote": "But if it’s mostly decorative, or you only use it now and then, then a fixed coffee table might be the better choice",
+        "source_id": "body",
+        "start": 3077
+      }
+    ],
+    "C09": [
+      {
+        "end": 21803,
+        "quote": "Q: Does a lift top coffee table need two people to assemble?",
+        "source_id": "body",
+        "start": 21743
+      },
+      {
+        "end": 21375,
+        "quote": "Q: How high does a lift top coffee table lift?",
+        "source_id": "body",
+        "start": 21329
+      }
+    ],
+    "C10": [
+      {
+        "end": 20198,
+        "quote": "Picking between a lift top coffee table and a regular coffee table really boils down to how you actually use your living space.",
+        "source_id": "body",
+        "start": 20071
+      }
+    ],
+    "E07": [
+      {
+        "end": 19391,
+        "quote": "Lift Top Coffee Table Buying Checklist",
+        "source_id": "body",
+        "start": 19353
+      },
+      {
+        "end": 19675,
+        "quote": "Raised and closed weight limits are clearly given.",
+        "source_id": "body",
+        "start": 19625
+      }
+    ],
+    "E09": [
+      {
+        "end": 6498,
+        "quote": "Ergonomics guides recommend a stable work surface, and they also suggest keeping keyboard height so the wrists stay neutral.",
+        "source_id": "body",
+        "start": 6374
+      }
+    ],
+    "Ept03": [
+      {
+        "end": 5271,
+        "quote": "A gas spring lift top coffee table uses a pressurized cylinder.",
+        "source_id": "body",
+        "start": 5208
+      },
+      {
+        "end": 12944,
+        "quote": "Keep in mind that the moving parts of a coffee table create pinch points around hinges, arms, and small gaps.",
+        "source_id": "body",
+        "start": 12835
+      }
+    ],
+    "Ept04": [
+      {
+        "end": 12758,
+        "quote": "For instance, one brand’s instructions might say 100lb when closed, but only 22lb when the top is raised.",
+        "source_id": "body",
+        "start": 12653
+      }
+    ],
+    "Ept05": [
+      {
+        "end": 12438,
+        "quote": "Make sure to test the table on a level surface with the coffee table sitting firmly on the ground.",
+        "source_id": "body",
+        "start": 12340
+      }
+    ],
+    "Ept06": [
+      {
+        "end": 11295,
+        "quote": "A regular coffee table can still bring storage through drawers or shelves",
+        "source_id": "body",
+        "start": 11222
+      },
+      {
+        "end": 20884,
+        "quote": "if you work for many hours every day, a dedicated desk and ergonomic chair may still be preferable.",
+        "source_id": "body",
+        "start": 20785
+      }
+    ],
+    "Ept08": [
+      {
+        "end": 17466,
+        "quote": "If the lift mechanism would only be used occasionally, the added cost and maintenance may offer little benefit over a simpler fixed-top table.",
+        "source_id": "body",
+        "start": 17324
+      }
+    ],
+    "Ept09": [
+      {
+        "end": 6498,
+        "quote": "Ergonomics guides recommend a stable work surface, and they also suggest keeping keyboard height so the wrists stay neutral.",
+        "source_id": "body",
+        "start": 6374
+      }
+    ],
+    "Exp03": [
+      {
+        "end": 13767,
+        "quote": "Before you fully tighten everything, make sure the tabletop sits square, and that the lift arms move evenly.",
+        "source_id": "body",
+        "start": 13659
+      }
+    ],
+    "G-FACTS": [
+      {
+        "end": 14206,
+        "quote": "Experts advise checking bolts at least every three months.",
+        "source_id": "body",
+        "start": 14148
+      },
+      {
+        "end": 12834,
+        "quote": "Always follow the model’s stated lift top coffee table raised weight limit.",
+        "source_id": "body",
+        "start": 12759
+      }
+    ],
+    "G-INTENT": [
+      {
+        "end": 3076,
+        "quote": "If you work or eat from the sofa pretty often, the extra functions can be genuinely useful.",
+        "source_id": "body",
+        "start": 2985
+      }
+    ],
+    "G-REVIEWS": [
+      {
+        "end": 16480,
+        "quote": "A lift-top table usually has more hardware to assemble and maintain, may require extra clearance when opened, and can have a lower load limit in the raised position.",
+        "source_id": "body",
+        "start": 16315
+      }
+    ],
+    "G-VALUE": [
+      {
+        "end": 17323,
+        "quote": "The calculation changes if you already have a comfortable desk, a dining table, and enough storage.",
+        "source_id": "body",
+        "start": 17224
+      }
+    ],
+    "O02": [
+      {
+        "end": 2076,
+        "quote": "Lift Top vs. Regular Coffee Table: Quick Comparison",
+        "source_id": "body",
+        "start": 2025
+      }
+    ],
+    "O03": [
+      {
+        "end": 2513,
+        "quote": "Factor\nLift-Top\nRegular\nWork from sofa\nStrong\nLimited",
+        "source_id": "body",
+        "start": 2460
+      }
+    ],
+    "O04": [
+      {
+        "end": 19624,
+        "quote": "Closed dimensions fit the available space.\nThe raised top has enough clearance from the sofa and nearby furniture.\nRaised height suits your use.",
+        "source_id": "body",
+        "start": 19480
+      }
+    ],
+    "O06": [
+      {
+        "end": 5420,
+        "quote": "A gas spring lift top coffee table uses a pressurized cylinder. This gives an extension force that feels more steady. Gas springs also provide controlled motion, sometimes with damping, so the top opens smoothly.",
+        "source_id": "body",
+        "start": 5208
+      },
+      {
+        "end": 8061,
+        "quote": "Often, yes. This depends on the design.",
+        "source_id": "body",
+        "start": 8022
+      }
+    ],
+    "O08": [
+      {
+        "end": 1828,
+        "quote": "Table of Contents\nLift Top Vs. Regular Coffee Table: Quick Comparison\nHow Lift Top Coffee Tables Work",
+        "source_id": "body",
+        "start": 1727
+      }
+    ],
+    "O09": [
+      {
+        "end": 19352,
+        "quote": "Basically, the better option depends on your routine is the one that matches your real routine.",
+        "source_id": "body",
+        "start": 19257
+      }
+    ],
+    "R01": [
+      {
+        "end": 12758,
+        "quote": "100lb when closed, but only 22lb when the top is raised.",
+        "source_id": "body",
+        "start": 12702
+      },
+      {
+        "end": 14206,
+        "quote": "at least every three months.",
+        "source_id": "body",
+        "start": 14178
+      }
+    ],
+    "R04": [
+      {
+        "end": 14206,
+        "quote": "Experts advise checking bolts at least every three months.",
+        "source_id": "body",
+        "start": 14148
+      }
+    ],
+    "R05": [
+      {
+        "end": 12181,
+        "quote": "If you want to judge lift top coffee table stability, test it in both positions.",
+        "source_id": "body",
+        "start": 12101
+      }
+    ],
+    "R07": [
+      {
+        "end": 8246,
+        "quote": "One manufacturer, for instance, specifies that items should be removed before operating its lift mechanism.",
+        "source_id": "body",
+        "start": 8139
+      },
+      {
+        "end": 14206,
+        "quote": "Experts advise checking bolts at least every three months.",
+        "source_id": "body",
+        "start": 14148
+      }
+    ],
+    "R08": [
+      {
+        "end": 22072,
+        "quote": "Coffee Table Buying Guide: Size, Shape, Storage & Style",
+        "source_id": "body",
+        "start": 22017
+      },
+      {
+        "end": 2080,
+        "quote": "Match the machine to the menu and batch size, then verify power, water, gas, ventilation, food-contact materials, removable parts, and cleaning steps",
+        "source_id": "reference-1",
+        "start": 1931
+      }
+    ],
+    "R10": [
+      {
+        "end": 12652,
+        "quote": "The closed tabletop and the lifted tabletop may have different limits, because the raised surface is supported by the lift arms instead of the base.",
+        "source_id": "body",
+        "start": 12504
+      }
+    ],
+    "T08": [
+      {
+        "end": 13061,
+        "quote": "Keep fingers clear when opening or closing the top, and make sure kids or pets don't mess around with the mechanism.",
+        "source_id": "body",
+        "start": 12945
+      },
+      {
+        "end": 12834,
+        "quote": "Always follow the model’s stated lift top coffee table raised weight limit.",
+        "source_id": "body",
+        "start": 12759
+      }
+    ]
+  },
+  "items": [
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A01",
+      "reason": "未提供权威网站指向本文或品牌的反向链接证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A02",
+      "reason": "未提供媒体报道或媒体标识的可核验材料。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A03",
+      "reason": "未提供相关行业奖项或认可的证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A04",
+      "reason": "未提供作者或品牌的演讲、出版或专利记录。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A05",
+      "reason": "未提供品牌搜索量数据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A06",
+      "reason": "未提供可核验的真实用户证言。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "A07",
+      "reason": "本次家具选购文章审计不依赖知识图谱收录，明确条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A08",
+      "reason": "未提供跨网站的品牌或作者资料以核对一致性。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A09",
+      "reason": "未提供与权威组织合作的可核验材料。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A10",
+      "reason": "未提供专业社区参与及影响力证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Stability, opening clearance, raised weight limits, assembly, cleaning, and long-term maintenance all affect how practical the table feels",
+          "source_id": "body"
+        }
+      ],
+      "id": "C01",
+      "reason": "正文实际比较了标题承诺的功能、收纳和稳定性，没有构成否决的实质错配。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "A regular coffee table gives you a fixed top, steady and uncomplicated, while a lift top coffee table adds a moveable top",
+          "source_id": "body"
+        }
+      ],
+      "id": "C02",
+      "reason": "开头150词内解释核心区别，但针对何时选哪一种的直接答案在后文才展开。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Can you work on a lift top coffee table?",
+          "source_id": "body"
+        },
+        {
+          "quote": "Can you eat on a lift top coffee table?",
+          "source_id": "body"
+        },
+        {
+          "quote": "Are lift top coffee tables safe for children?",
+          "source_id": "body"
+        }
+      ],
+      "id": "C03",
+      "reason": "正文覆盖工作、用餐及儿童安全等至少三个查询变体，满足第三方数量锚点。",
+      "state": "pass"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "A regular coffee table gives you a fixed top, steady and uncomplicated, while a lift top coffee table adds a moveable top that can pull the work or dining surface closer to you.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C04",
+      "reason": "首次实质介绍时解释了两类桌面的主要区别，支持核心术语定义要求。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "This guide takes a practical look at both options, comparing how they handle work, dining, storage, and daily use.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C05",
+      "reason": "正文明确涵盖的比较范围，但没有明确列出不涵盖的内容。",
+      "state": "partial"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "If you are furnishing an apartment or trying to make a small living room work harder",
+          "source_id": "body"
+        }
+      ],
+      "id": "C06",
+      "reason": "开头明确指向公寓及小客厅用户，虽未使用固定句式仍表达了目标受众。",
+      "state": "pass"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "However, more functionality does not automatically mean better. Moving parts can complicate stability, cleaning, assembly, and maintenance.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C07",
+      "reason": "正文从功能优势自然转向稳定性和维护取舍，主要论述衔接连贯。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "If you work or eat from the sofa pretty often, the extra functions can be genuinely useful.",
+          "source_id": "body"
+        },
+        {
+          "quote": "But if it’s mostly decorative, or you only use it now and then, then a fixed coffee table might be the better choice",
+          "source_id": "body"
+        }
+      ],
+      "id": "C08",
+      "reason": "正文依据工作用餐频率与装饰用途给出了两类产品的选择条件。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Q: Does a lift top coffee table need two people to assemble?",
+          "source_id": "body"
+        },
+        {
+          "quote": "Q: How high does a lift top coffee table lift?",
+          "source_id": "body"
+        }
+      ],
+      "id": "C09",
+      "reason": "独立问答部分覆盖安装人数、升高高度等长尾追问。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Picking between a lift top coffee table and a regular coffee table really boils down to how you actually use your living space.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C10",
+      "reason": "结论回应了开头的选择问题，但具体下一步检查动作主要放在结论之前。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E01",
+      "reason": "文章承诺类别选购比较，没有承诺原创调查、实验或统计数据。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E02",
+      "reason": "文章没有声称提出原创框架或模型。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E03",
+      "reason": "文章没有将原始实验或调查作为内容承诺。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E04",
+      "reason": "文章提供常规功能取舍，没有提出挑战行业共识的立场。",
+      "state": "na"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [],
+      "id": "E05",
+      "reason": "本文的定性类别比较可用文字和表格说明，没有必须依靠原创图解支持的主张。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "E06",
+      "reason": "没有竞争内容样本，无法确认本文是否填补竞争者未覆盖的问题。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Lift Top Coffee Table Buying Checklist",
+          "source_id": "body"
+        },
+        {
+          "quote": "Raised and closed weight limits are clearly given.",
+          "source_id": "body"
+        }
+      ],
+      "id": "E07",
+      "reason": "正文提供可执行的内嵌购买清单，但未提供可下载工具。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "E08",
+      "reason": "没有同主题竞争页面的充分材料，无法判断相对深度优势。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "Ergonomics guides recommend a stable work surface, and they also suggest keeping keyboard height so the wrists stay neutral.",
+          "source_id": "body"
+        }
+      ],
+      "id": "E09",
+      "reason": "正文将家具机构选择与人体工学要求结合，形成跨领域的选购分析。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E10",
+      "reason": "文章没有提出未来趋势或预测主张。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Ept01",
+      "reason": "仅有作者姓名元数据，未提供可核验的可见署名、头像及超过30词的简介。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Ept02",
+      "reason": "未提供作者相关学历、认证或从业年限的证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "A gas spring lift top coffee table uses a pressurized cylinder.",
+          "source_id": "body"
+        },
+        {
+          "quote": "Keep in mind that the moving parts of a coffee table create pinch points around hinges, arms, and small gaps.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept03",
+      "reason": "气弹簧和夹点等术语在具体机构语境中使用合理，未观察到明显误用。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "For instance, one brand’s instructions might say 100lb when closed, but only 22lb when the top is raised.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept04",
+      "reason": "正文给出闭合与升起承重的具体示例及检查动作，但未标明示例型号和来源。",
+      "state": "partial"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "Make sure to test the table on a level surface with the coffee table sitting firmly on the ground.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept05",
+      "reason": "提供了稳定性检查的部分条件，但没有载荷、测量指标及判定阈值以复现分析。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "A regular coffee table can still bring storage through drawers or shelves",
+          "source_id": "body"
+        },
+        {
+          "quote": "if you work for many hours every day, a dedicated desk and ergonomic chair may still be preferable.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept06",
+      "reason": "正文指出普通桌也可收纳及长期办公应考虑专用桌椅，满足第三方至少两个例外的要求。",
+      "state": "pass"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Ept07",
+      "reason": "未提供行业历史、产品代际或演变资料以确认相关知识。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "If the lift mechanism would only be used occasionally, the added cost and maintenance may offer little benefit over a simpler fixed-top table.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept08",
+      "reason": "正文明确用使用频率、成本和维护负担解释选择普通桌的取舍。",
+      "state": "pass"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "Ergonomics guides recommend a stable work surface, and they also suggest keeping keyboard height so the wrists stay neutral.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept09",
+      "reason": "正文把家具稳定性与人体工学中的键盘和手腕姿势联系起来。",
+      "state": "pass"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Ept10",
+      "reason": "未提供审阅者或事实核查者标签的证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp01",
+      "reason": "文章没有声称第一人称实测，本次类别指南也未要求第一人称体验。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Exp02",
+      "reason": "机构手感与稳定性对选购有意义，但文本未建立感官描述来自实际观察。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Before you fully tighten everything, make sure the tabletop sits square, and that the lift arms move evenly.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Exp03",
+      "reason": "正文说明装配检查的先后顺序，但没有带时间线的完整过程记录。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp04",
+      "reason": "文章没有声称亲手使用产品，原创带时间戳照片的条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp05",
+      "reason": "文章没有长期使用结论或耐久性实测承诺，使用时长不是其证据主张。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Exp06",
+      "reason": "文中的晃动和清洁问题属于一般建议，未提供实际遭遇及解决过程的记录。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp07",
+      "reason": "文章比较产品类别和开合状态，没有提出使用前后改善的体验主张。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Exp08",
+      "reason": "承重示例和维护周期不是可核验的实际体验测量。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp09",
+      "reason": "文章没有声称重复测试或长期跟踪。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Exp10",
+      "reason": "未提供实际测试及其场景边界，不能把型号差异说明当作测试限制。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "O01",
+      "reason": "抽取文本没有保留HTML标题级别，无法核验是否存在层级跳跃。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Lift Top vs. Regular Coffee Table: Quick Comparison",
+          "source_id": "body"
+        }
+      ],
+      "id": "O02",
+      "reason": "正文有快速比较摘要，但没有明确的TL;DR或要点总结区块。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Factor\nLift-Top\nRegular\nWork from sofa\nStrong\nLimited",
+          "source_id": "body"
+        }
+      ],
+      "id": "O03",
+      "reason": "抽取文本呈现因素与两类产品逐行对应的比较表结构。",
+      "state": "pass"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "Closed dimensions fit the available space.\nThe raised top has enough clearance from the sofa and nearby furniture.\nRaised height suits your use.",
+          "source_id": "body"
+        }
+      ],
+      "id": "O04",
+      "reason": "并列清单已逐项分行，但抽取文本未保留项目符号或编号。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "O05",
+      "reason": "仅提供作者对象，未提供完整JSON-LD或结构化数据验证结果。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "A gas spring lift top coffee table uses a pressurized cylinder. This gives an extension force that feels more steady. Gas springs also provide controlled motion, sometimes with damping, so the top opens smoothly.",
+          "source_id": "body"
+        },
+        {
+          "quote": "Often, yes. This depends on the design.",
+          "source_id": "body"
+        }
+      ],
+      "id": "O06",
+      "reason": "多数章节围绕单一主题，但段落句数并未一致满足第三方3至5句的锚点。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "O07",
+      "reason": "纯文本抽取未保留加粗或高亮信息，无法核验关键概念的视觉突出。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Table of Contents\nLift Top Vs. Regular Coffee Table: Quick Comparison\nHow Lift Top Coffee Tables Work",
+          "source_id": "body"
+        }
+      ],
+      "id": "O08",
+      "reason": "正文存在目录，但没有可核验的跳转链接信息。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Basically, the better option depends on your routine is the one that matches your real routine.",
+          "source_id": "body"
+        }
+      ],
+      "id": "O09",
+      "reason": "正文整体术语一致，但该句重复表达且语法不顺，削弱信息密度。",
+      "state": "partial"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [],
+      "id": "O10",
+      "reason": "声明的文章材料只有文字和比较数据，没有将图片或视频作为内容组成部分。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "100lb when closed, but only 22lb when the top is raised.",
+          "source_id": "body"
+        },
+        {
+          "quote": "at least every three months.",
+          "source_id": "body"
+        }
+      ],
+      "id": "R01",
+      "reason": "正文包含承重和维护周期的具体数字，但未达到第三方至少五个带单位数字的要求。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "R02",
+      "reason": "未提供完整外链和引用位置映射，无法核验每500词的外部引用密度。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "R03",
+      "reason": "可用参考均为站内选购内容，未提供足以识别三个高等级来源的引用材料。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Experts advise checking bolts at least every three months.",
+          "source_id": "body"
+        }
+      ],
+      "id": "R04",
+      "reason": "该维护主张紧邻的只有匿名专家归因，没有可核验的证据，未满足逐项证据对应要求。",
+      "state": "partial"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "If you want to judge lift top coffee table stability, test it in both positions.",
+          "source_id": "body"
+        }
+      ],
+      "id": "R05",
+      "reason": "正文给出检查位置和部分步骤，但没有记录分析样本数量及统一判定标准。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "R06",
+      "reason": "元数据声明近期发布日期但修改日期为空，未提供可核验的最后更新及版本变更记录。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "One manufacturer, for instance, specifies that items should be removed before operating its lift mechanism.",
+          "source_id": "body"
+        },
+        {
+          "quote": "Experts advise checking bolts at least every three months.",
+          "source_id": "body"
+        }
+      ],
+      "id": "R07",
+      "reason": "关键归因使用未具名的制造商和专家，不满足实体明确命名要求。",
+      "state": "fail"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Coffee Table Buying Guide: Size, Shape, Storage & Style",
+          "source_id": "body"
+        },
+        {
+          "quote": "Match the machine to the menu and batch size, then verify power, water, gas, ventilation, food-contact materials, removable parts, and cleaning steps",
+          "source_id": "reference-1"
+        }
+      ],
+      "id": "R08",
+      "reason": "存在描述性相关阅读入口，但已检索的咖啡桌集合参考混入设备选型文字，削弱主题关联价值。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "R09",
+      "reason": "未提供原始HTML，无法确认article、figure、time或cite语义标签。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "The closed tabletop and the lifted tabletop may have different limits, because the raised surface is supported by the lift arms instead of the base.",
+          "source_id": "body"
+        }
+      ],
+      "id": "R10",
+      "reason": "正文对开合状态差异解释一致，未观察到实质内部矛盾，参考页错配不构成本文否决。",
+      "state": "pass"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T01",
+      "reason": "元数据声明隐私和服务条款入口，但没有正文或已检索政策内容以核验政策呈现。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T02",
+      "reason": "仅声明在线客服入口，未提供实体地址或至少两种联系方式的可核验内容。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T03",
+      "reason": "链接采用HTTPS不能证明全站安全，也未提供证书或安全警告检查。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T04",
+      "reason": "未证实付费投放、联盟关系或其他需要披露的具体利益联系，不能据此触发披露否决。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T05",
+      "reason": "未提供已发布的内容标准或审阅流程。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T06",
+      "reason": "未提供更正页面或变更日志，无法确认其存在。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T07",
+      "reason": "没有页面渲染及交互检查，无法核验广告占比或侵入式弹窗。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Keep fingers clear when opening or closing the top, and make sure kids or pets don't mess around with the mechanism.",
+          "source_id": "body"
+        },
+        {
+          "quote": "Always follow the model’s stated lift top coffee table raised weight limit.",
+          "source_id": "body"
+        }
+      ],
+      "id": "T08",
+      "reason": "正文涉及夹伤和承重风险，并提供对应警示及遵循型号说明的限制。",
+      "state": "pass"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T09",
+      "reason": "未提供用户评论或独立评测记录以核验真实性信号。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T10",
+      "reason": "仅声明退货政策和客服入口，未提供政策正文、投诉流程或响应时限。",
+      "state": "unknown"
+    }
+  ],
+  "aaron": {
+    "advisory": true,
+    "cap_applied": false,
+    "catalog_version": "20.1.0",
+    "context": {
+      "content_type": "blog-post",
+      "market": "US",
+      "market_basis": "Garvee US storefront default; override market for another jurisdiction.",
+      "publication_state": "live"
+    },
+    "dimension_coverage": {
+      "A": 0,
+      "C": 100,
+      "E": 50,
+      "Ept": 60,
+      "Exp": 20,
+      "O": 66,
+      "R": 60,
+      "T": 10
+    },
+    "evidence_coverage": 47,
+    "external_validity": "advisory-until-outcome-calibrated",
+    "flags": [],
+    "framework": "CORE-EEAT",
+    "gaps": [
+      {
+        "id": "A01",
+        "reason": "未提供权威网站指向本文或品牌的反向链接证据。"
+      },
+      {
+        "id": "A02",
+        "reason": "未提供媒体报道或媒体标识的可核验材料。"
+      },
+      {
+        "id": "A03",
+        "reason": "未提供相关行业奖项或认可的证据。"
+      },
+      {
+        "id": "A04",
+        "reason": "未提供作者或品牌的演讲、出版或专利记录。"
+      },
+      {
+        "id": "A05",
+        "reason": "未提供品牌搜索量数据。"
+      },
+      {
+        "id": "A06",
+        "reason": "未提供可核验的真实用户证言。"
+      },
+      {
+        "id": "A08",
+        "reason": "未提供跨网站的品牌或作者资料以核对一致性。"
+      },
+      {
+        "id": "A09",
+        "reason": "未提供与权威组织合作的可核验材料。"
+      },
+      {
+        "id": "A10",
+        "reason": "未提供专业社区参与及影响力证据。"
+      },
+      {
+        "id": "E06",
+        "reason": "没有竞争内容样本，无法确认本文是否填补竞争者未覆盖的问题。"
+      },
+      {
+        "id": "E08",
+        "reason": "没有同主题竞争页面的充分材料，无法判断相对深度优势。"
+      },
+      {
+        "id": "Ept01",
+        "reason": "仅有作者姓名元数据，未提供可核验的可见署名、头像及超过30词的简介。"
+      },
+      {
+        "id": "Ept02",
+        "reason": "未提供作者相关学历、认证或从业年限的证据。"
+      },
+      {
+        "id": "Ept07",
+        "reason": "未提供行业历史、产品代际或演变资料以确认相关知识。"
+      },
+      {
+        "id": "Ept10",
+        "reason": "未提供审阅者或事实核查者标签的证据。"
+      },
+      {
+        "id": "Exp02",
+        "reason": "机构手感与稳定性对选购有意义，但文本未建立感官描述来自实际观察。"
+      },
+      {
+        "id": "Exp06",
+        "reason": "文中的晃动和清洁问题属于一般建议，未提供实际遭遇及解决过程的记录。"
+      },
+      {
+        "id": "Exp08",
+        "reason": "承重示例和维护周期不是可核验的实际体验测量。"
+      },
+      {
+        "id": "Exp10",
+        "reason": "未提供实际测试及其场景边界，不能把型号差异说明当作测试限制。"
+      },
+      {
+        "id": "O01",
+        "reason": "抽取文本没有保留HTML标题级别，无法核验是否存在层级跳跃。"
+      },
+      {
+        "id": "O05",
+        "reason": "仅提供作者对象，未提供完整JSON-LD或结构化数据验证结果。"
+      },
+      {
+        "id": "O07",
+        "reason": "纯文本抽取未保留加粗或高亮信息，无法核验关键概念的视觉突出。"
+      },
+      {
+        "id": "R02",
+        "reason": "未提供完整外链和引用位置映射，无法核验每500词的外部引用密度。"
+      },
+      {
+        "id": "R03",
+        "reason": "可用参考均为站内选购内容，未提供足以识别三个高等级来源的引用材料。"
+      },
+      {
+        "id": "R06",
+        "reason": "元数据声明近期发布日期但修改日期为空，未提供可核验的最后更新及版本变更记录。"
+      },
+      {
+        "id": "R09",
+        "reason": "未提供原始HTML，无法确认article、figure、time或cite语义标签。"
+      },
+      {
+        "id": "T01",
+        "reason": "元数据声明隐私和服务条款入口，但没有正文或已检索政策内容以核验政策呈现。"
+      },
+      {
+        "id": "T02",
+        "reason": "仅声明在线客服入口，未提供实体地址或至少两种联系方式的可核验内容。"
+      },
+      {
+        "id": "T03",
+        "reason": "链接采用HTTPS不能证明全站安全，也未提供证书或安全警告检查。"
+      },
+      {
+        "id": "T04",
+        "reason": "未证实付费投放、联盟关系或其他需要披露的具体利益联系，不能据此触发披露否决。"
+      },
+      {
+        "id": "T05",
+        "reason": "未提供已发布的内容标准或审阅流程。"
+      },
+      {
+        "id": "T06",
+        "reason": "未提供更正页面或变更日志，无法确认其存在。"
+      },
+      {
+        "id": "T07",
+        "reason": "没有页面渲染及交互检查，无法核验广告占比或侵入式弹窗。"
+      },
+      {
+        "id": "T09",
+        "reason": "未提供用户评论或独立评测记录以核验真实性信号。"
+      },
+      {
+        "id": "T10",
+        "reason": "仅声明退货政策和客服入口，未提供政策正文、投诉流程或响应时限。"
+      }
+    ],
+    "observed_at": "2026-10-12",
+    "profile": "blog-post",
+    "schema_version": "3.0",
+    "score_confidence": "not_scored",
+    "score_interval": [
+      42,
+      85
+    ],
+    "score_state": "NOT_SCORED",
+    "status": "NEEDS_INPUT",
+    "target": "https://www.garvee.com/blogs/buying-guides/lift-top-vs-regular-coffee-table",
+    "verdict": "UNDECIDED",
+    "veto_count": 0,
+    "veto_items_failed": []
+  },
+  "versions": {
+    "aaron": {
+      "archive_sha256": "f071c6dafc546db850b78166336e254fc1d5f7439eb68d18132a694eb93b5021",
+      "catalog_version": "20.1.0",
+      "commit": "a342b203bb969762ee085c51b249896958e2ebd4",
+      "release": "v20.1.0"
+    },
+    "detector": "Originality-v3",
+    "google": "google-2026-10-12",
+    "google_hash": "dbc1fcd0171dbfcf7eb7ad73aeb941db6a36deac5194c39bec3cabf620c6d73c",
+    "model": {
+      "name": "gpt-6.1-sol",
+      "provider": "codex-cli"
+    },
+    "service": "0.1.0",
+    "service_source_hash": "93c7384adecc2be239ad297dd004ce005890e54da99b5806934422eecf114aef",
+    "version_set": "initial-4e293d2811a10e55"
+  },
+  "slug": "coffee-table",
+  "display_title": "升降茶几与普通茶几对比",
+  "category": "家具选购指南",
+  "sources": [
+    {
+      "id": "reference-1",
+      "url": "https://www.garvee.com/collections/coffee-tables?utm_source=blog&utm_medium=article&utm_campaign=Blog_coffee-tables&utm_term=Coffee_Table&utm_content=26-153_Lift_top_vs_Regular_Coffee_Table_20260928&filter.v.availability=true",
+      "status": "retrieved"
+    },
+    {
+      "id": "reference-2",
+      "url": "https://www.garvee.com/blogs/buying-guides/coffee-table-buying-guide",
+      "status": "retrieved"
+    }
+  ]
+}

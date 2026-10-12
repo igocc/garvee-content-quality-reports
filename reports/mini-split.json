@@ -1,0 +1,1611 @@
+{
+  "article": {
+    "canonical_url": "https://www.garvee.com/blogs/buying-guides/how-to-choose-a-mini-split-for-a-garage-workshop-or-gym",
+    "content_hash": "f655a0eeef8d099943985a1b8c4a213e1930ed59970350f6508728faa9c65301",
+    "title": "How to Choose a Mini Split for a Garage Workshop or Gym",
+    "url": "https://www.garvee.com/blogs/buying-guides/how-to-choose-a-mini-split-for-a-garage-workshop-or-gym"
+  },
+  "audit_id": "8bd9dd1e-42ed-448f-8321-9cbd61495092",
+  "observed_at": "2026-10-12T03:42:40.678508+00:00",
+  "google_findings": [
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Use this guide to decide whether a mini split suits your garage, understand what affects sizing and prepare for an installation quote.",
+          "source_id": "body"
+        }
+      ],
+      "id": "G-INTENT",
+      "reason": "正文提供适用性判断、选型检查和报价准备，符合官方关于满足读者目的的指导。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "pass"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "Imagine two 20 × 24 ft garages, each with 480 sq. ft. of floor space.",
+          "source_id": "body"
+        }
+      ],
+      "id": "G-VALUE",
+      "reason": "对相同面积不同工况的分析增加了决策价值，但无法确认其相对其他来源的原创性。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Indoor relative humidity (RH) should be kept below 60 percent -- ideally between 30 percent and 50 percent, if possible.",
+          "source_id": "reference-3"
+        },
+        {
+          "quote": "These are illustrative examples, not customer installations.",
+          "source_id": "body"
+        }
+      ],
+      "id": "G-FACTS",
+      "reason": "湿度建议获得已取回原始来源支持且示例边界明确，但部分安全引用和型号参数尚未核实。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-WHO",
+      "reason": "作者元数据仅声明姓名，缺少可核验身份、相关资历和实际署名展示证据。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "This table summarizes listing details; it does not tell you which capacity your garage needs.",
+          "source_id": "body"
+        }
+      ],
+      "id": "G-HOW",
+      "reason": "正文解释了参数来自商品列表并区分示例与实装，但未说明具体核验和编辑过程。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-AI",
+      "reason": "未提供自动化或AI使用证据，无法判断相关质量控制与披露。",
+      "source_url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-SPAM",
+      "reason": "缺少内容生产规模、操纵意图和欺骗行为证据，单页不能确认垃圾内容政策违规或全面合规。",
+      "source_url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-REVIEWS",
+      "reason": "Evidence could not be located or applicability was invalid.",
+      "source_url": "https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "G-EXPERIENCE",
+      "reason": "仅有HTML文本提取，缺少渲染、移动端、性能和交互观测。",
+      "source_url": "https://developers.google.com/search/docs/appearance/page-experience",
+      "state": "unknown"
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "补充可核验的作者背景和可见署名，仅列真实相关资历。",
+      "item_id": "G-WHO",
+      "priority": "P1"
+    },
+    {
+      "action": "人工核查未成功取回的CDC和Building America引用，并提供可访问的对应原始依据。",
+      "item_id": "G-FACTS",
+      "priority": "P1"
+    },
+    {
+      "action": "为两款商品的电压、控制功能和冬季性能补充对应SKU的官方文件，并区分列表声明与已核实参数。",
+      "item_id": "R04",
+      "priority": "P1"
+    },
+    {
+      "action": "说明真实的资料选择、商品参数核验和编辑审阅流程，不添加未发生的测试。",
+      "item_id": "G-HOW",
+      "priority": "P1"
+    },
+    {
+      "action": "首次出现时解释SEER2及其他未定义的专业缩写。",
+      "item_id": "C04",
+      "priority": "P2"
+    },
+    {
+      "action": "加入简短要点总结，概括负荷计算、供电兼容性和冬季供热核验。",
+      "item_id": "O02",
+      "priority": "P2"
+    },
+    {
+      "action": "提供可下载的安装报价清单，保留现有真实检查项。",
+      "item_id": "E07",
+      "priority": "P2"
+    },
+    {
+      "action": "合并重复的负荷、电压和冬季性能提醒，保留各章节独有的判断信息。",
+      "item_id": "O09",
+      "priority": "P2"
+    },
+    {
+      "action": "在支持入口明确退货政策、投诉方式和实际执行的响应时限。",
+      "item_id": "T10",
+      "priority": "P2"
+    }
+  ],
+  "located_evidence": {
+    "C01": [
+      {
+        "end": 3113,
+        "quote": "Choose a garage mini split using the calculated heating and cooling load, available voltage and cold-weather heating output.",
+        "source_id": "body",
+        "start": 2989
+      }
+    ],
+    "C02": [
+      {
+        "end": 353,
+        "quote": "A heat-pump model offers both cooling and heating, but its performance depends on more than floor space: insulation, climate, electrical supply and installation all matter.",
+        "source_id": "body",
+        "start": 181
+      }
+    ],
+    "C03": [
+      {
+        "end": 13822,
+        "quote": "What Size Mini Split Do I Need for a Two-Car Garage?",
+        "source_id": "body",
+        "start": 13770
+      },
+      {
+        "end": 14167,
+        "quote": "Can a Mini Split Heat a Garage in Winter?",
+        "source_id": "body",
+        "start": 14126
+      },
+      {
+        "end": 14776,
+        "quote": "Will a Garage Mini Split Reduce Humidity?",
+        "source_id": "body",
+        "start": 14735
+      }
+    ],
+    "C04": [
+      {
+        "end": 7127,
+        "quote": "HSPF2 measures seasonal heating efficiency.",
+        "source_id": "body",
+        "start": 7084
+      },
+      {
+        "end": 10353,
+        "quote": "rated heating capacity, SEER2, HSPF2",
+        "source_id": "body",
+        "start": 10317
+      }
+    ],
+    "C05": [
+      {
+        "end": 488,
+        "quote": "Use this guide to decide whether a mini split suits your garage, understand what affects sizing and prepare for an installation quote.",
+        "source_id": "body",
+        "start": 354
+      },
+      {
+        "end": 3269,
+        "quote": "Use the table below to organize your assessment, not as a fixed BTU sizing chart.",
+        "source_id": "body",
+        "start": 3188
+      }
+    ],
+    "C06": [
+      {
+        "end": 1127,
+        "quote": "If you spend several hours a week working or exercising in the garage, a permanent system can make sense.",
+        "source_id": "body",
+        "start": 1022
+      }
+    ],
+    "C07": [
+      {
+        "end": 10189,
+        "quote": "Choose suitable capacity, voltage and winter heating performance first, then consider the controls that fit your routine.",
+        "source_id": "body",
+        "start": 10068
+      }
+    ],
+    "C08": [
+      {
+        "end": 10067,
+        "quote": "A timer may be enough for regular workshop sessions, while Wi-Fi controls can make it easier to prepare a gym before you arrive.",
+        "source_id": "body",
+        "start": 9939
+      }
+    ],
+    "C09": [
+      {
+        "end": 15077,
+        "quote": "Do I Need a Dedicated Circuit, and Should I Choose 115V or 230V?",
+        "source_id": "body",
+        "start": 15013
+      }
+    ],
+    "C10": [
+      {
+        "end": 15879,
+        "quote": "Review the five sizing checks, then request a load calculation for your garage.",
+        "source_id": "body",
+        "start": 15800
+      }
+    ],
+    "E07": [
+      {
+        "end": 11740,
+        "quote": "Save the checklist below and send it with your request for an installation quote.",
+        "source_id": "body",
+        "start": 11659
+      }
+    ],
+    "E09": [
+      {
+        "end": 1608,
+        "quote": "Activities that produce heavy dust, oil mist, paint fumes or welding fumes also need an appropriate ventilation and equipment plan.",
+        "source_id": "body",
+        "start": 1477
+      }
+    ],
+    "Ept03": [
+      {
+        "end": 7009,
+        "quote": "A unit can operate in cold weather without producing enough heat to keep your garage comfortable.",
+        "source_id": "body",
+        "start": 6912
+      }
+    ],
+    "Ept05": [
+      {
+        "end": 4290,
+        "quote": "measure the enclosed floor area and ceiling height. Note partitions, separate rooms and tall shelving that could block airflow.",
+        "source_id": "body",
+        "start": 4163
+      }
+    ],
+    "Ept06": [
+      {
+        "end": 1428,
+        "quote": "A garage that stays open, or one you only visit briefly, may not benefit much from a permanent system.",
+        "source_id": "body",
+        "start": 1326
+      },
+      {
+        "end": 8292,
+        "quote": "If the room gets too cold or stays damp, a dedicated dehumidifier may be a better fit.",
+        "source_id": "body",
+        "start": 8206
+      }
+    ],
+    "Ept08": [
+      {
+        "end": 15282,
+        "quote": "Choose 115V or 230V for compatibility; voltage alone does not indicate efficiency.",
+        "source_id": "body",
+        "start": 15200
+      }
+    ],
+    "Ept09": [
+      {
+        "end": 8598,
+        "quote": "Dry tools before storing them, avoid putting damp items in closed cabinets and keep the indoor filter clean.",
+        "source_id": "body",
+        "start": 8490
+      }
+    ],
+    "Exp03": [
+      {
+        "end": 13200,
+        "quote": "Before the job is finished, ask for a demonstration of the controls and an explanation of filter care and drainage checks.",
+        "source_id": "body",
+        "start": 13078
+      }
+    ],
+    "Exp10": [
+      {
+        "end": 5608,
+        "quote": "These are illustrative examples, not customer installations.",
+        "source_id": "body",
+        "start": 5548
+      }
+    ],
+    "G-FACTS": [
+      {
+        "end": 4501,
+        "quote": "Indoor relative humidity (RH) should be kept below 60 percent -- ideally between 30 percent and 50 percent, if possible.",
+        "source_id": "reference-3",
+        "start": 4381
+      },
+      {
+        "end": 5608,
+        "quote": "These are illustrative examples, not customer installations.",
+        "source_id": "body",
+        "start": 5548
+      }
+    ],
+    "G-HOW": [
+      {
+        "end": 9683,
+        "quote": "This table summarizes listing details; it does not tell you which capacity your garage needs.",
+        "source_id": "body",
+        "start": 9590
+      }
+    ],
+    "G-INTENT": [
+      {
+        "end": 488,
+        "quote": "Use this guide to decide whether a mini split suits your garage, understand what affects sizing and prepare for an installation quote.",
+        "source_id": "body",
+        "start": 354
+      }
+    ],
+    "G-VALUE": [
+      {
+        "end": 5226,
+        "quote": "Imagine two 20 × 24 ft garages, each with 480 sq. ft. of floor space.",
+        "source_id": "body",
+        "start": 5157
+      }
+    ],
+    "O02": [
+      {
+        "end": 488,
+        "quote": "Use this guide to decide whether a mini split suits your garage, understand what affects sizing and prepare for an installation quote.",
+        "source_id": "body",
+        "start": 354
+      }
+    ],
+    "O03": [
+      {
+        "end": 9683,
+        "quote": "This table summarizes listing details; it does not tell you which capacity your garage needs.",
+        "source_id": "body",
+        "start": 9590
+      }
+    ],
+    "O04": [
+      {
+        "end": 4162,
+        "quote": "Five Checks Before Choosing Capacity\nArea and layout:",
+        "source_id": "body",
+        "start": 4109
+      }
+    ],
+    "O06": [
+      {
+        "end": 8489,
+        "quote": "Heat mode does not remove water vapor, and fan-only mode just circulates air.",
+        "source_id": "body",
+        "start": 8412
+      }
+    ],
+    "O08": [
+      {
+        "end": 580,
+        "quote": "Table of Contents",
+        "source_id": "body",
+        "start": 563
+      }
+    ],
+    "O09": [
+      {
+        "end": 3113,
+        "quote": "Choose a garage mini split using the calculated heating and cooling load, available voltage and cold-weather heating output.",
+        "source_id": "body",
+        "start": 2989
+      },
+      {
+        "end": 10189,
+        "quote": "Choose suitable capacity, voltage and winter heating performance first, then consider the controls that fit your routine.",
+        "source_id": "body",
+        "start": 10068
+      }
+    ],
+    "O10": [
+      {
+        "end": 2677,
+        "quote": "Equipment dimensions and specifications from the 9,000 BTU listing. Physical unit size is not a garage load calculation; confirm model details with the installer.",
+        "source_id": "body",
+        "start": 2515
+      }
+    ],
+    "R01": [
+      {
+        "end": 9378,
+        "quote": "9,000 BTU/h\n12,000 BTU/h",
+        "source_id": "body",
+        "start": 9354
+      },
+      {
+        "end": 5226,
+        "quote": "Imagine two 20 × 24 ft garages, each with 480 sq. ft. of floor space.",
+        "source_id": "body",
+        "start": 5157
+      },
+      {
+        "end": 5250,
+        "quote": "One has an 8 ft ceiling",
+        "source_id": "body",
+        "start": 5227
+      },
+      {
+        "end": 5362,
+        "quote": "The other has a 12 ft ceiling",
+        "source_id": "body",
+        "start": 5333
+      }
+    ],
+    "R02": [
+      {
+        "end": 2385,
+        "quote": "CDC carbon monoxide guidance",
+        "source_id": "body",
+        "start": 2357
+      },
+      {
+        "end": 5729,
+        "quote": "Building America guide to ductless heat pumps",
+        "source_id": "body",
+        "start": 5684
+      },
+      {
+        "end": 7836,
+        "quote": "EPA’s indoor moisture guidance",
+        "source_id": "body",
+        "start": 7806
+      }
+    ],
+    "R03": [
+      {
+        "end": 2385,
+        "quote": "CDC carbon monoxide guidance",
+        "source_id": "body",
+        "start": 2357
+      },
+      {
+        "end": 5729,
+        "quote": "Building America guide to ductless heat pumps",
+        "source_id": "body",
+        "start": 5684
+      },
+      {
+        "end": 7836,
+        "quote": "EPA’s indoor moisture guidance",
+        "source_id": "body",
+        "start": 7806
+      }
+    ],
+    "R04": [
+      {
+        "end": 5121,
+        "quote": "Improving the door and seals can reduce the load and help the garage return to a comfortable temperature after the door closes.",
+        "source_id": "body",
+        "start": 4994
+      }
+    ],
+    "R05": [
+      {
+        "end": 3113,
+        "quote": "Choose a garage mini split using the calculated heating and cooling load, available voltage and cold-weather heating output.",
+        "source_id": "body",
+        "start": 2989
+      }
+    ],
+    "R07": [
+      {
+        "end": 9336,
+        "quote": "US listing SKU\nPHK_35XYGTMT\nPHO_161GL6KZ",
+        "source_id": "body",
+        "start": 9296
+      }
+    ],
+    "R08": [
+      {
+        "end": 16875,
+        "quote": "Portable AC vs Mini Split AC for a Garage Workspace",
+        "source_id": "body",
+        "start": 16824
+      },
+      {
+        "end": 16951,
+        "quote": "How to Clean an Air Conditioner Filter: A Complete Summer Maintenance Guide",
+        "source_id": "body",
+        "start": 16876
+      }
+    ],
+    "R10": [
+      {
+        "end": 2970,
+        "quote": "Calling it a two-car garage does not tell you whether 9,000, 12,000, 18,000 or 24,000 BTU is the right choice.",
+        "source_id": "body",
+        "start": 2860
+      },
+      {
+        "end": 13867,
+        "quote": "Parking spaces alone are not a sizing guide.",
+        "source_id": "body",
+        "start": 13823
+      }
+    ],
+    "T08": [
+      {
+        "end": 2356,
+        "quote": "Never run a vehicle in an enclosed garage.",
+        "source_id": "body",
+        "start": 2314
+      },
+      {
+        "end": 13077,
+        "quote": "Use a professional HVAC installer who follows the selected model’s instructions and local requirements.",
+        "source_id": "body",
+        "start": 12974
+      }
+    ],
+    "T10": [
+      {
+        "end": 11232,
+        "quote": "contact GARVEE",
+        "source_id": "body",
+        "start": 11218
+      }
+    ]
+  },
+  "items": [
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A01",
+      "reason": "未提供指向该站或文章的权威外链记录。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A02",
+      "reason": "未提供媒体报道或媒体标识的可核验展示证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A03",
+      "reason": "未提供相关行业奖项及颁发方证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A04",
+      "reason": "未提供作者或品牌的演讲、出版或专利记录。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A05",
+      "reason": "未提供品牌搜索量数据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A06",
+      "reason": "未提供可核验的真实用户证言。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A07",
+      "reason": "未明确知识图谱是否影响本次审计目标，也未提供对应实体记录。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A08",
+      "reason": "缺少跨站作者和品牌信息，无法比较实体一致性。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A09",
+      "reason": "引用政府指导不构成权威机构合作关系证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "A10",
+      "reason": "未提供专业社区参与及影响力记录。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Choose a garage mini split using the calculated heating and cooling load, available voltage and cold-weather heating output.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C01",
+      "reason": "正文围绕车库工作间和健身房的选型展开，未见实质标题承诺错配。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "A heat-pump model offers both cooling and heating, but its performance depends on more than floor space: insulation, climate, electrical supply and installation all matter.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C02",
+      "reason": "开头150词内交代主要用途和选型因素，满足第三方 rubric 的位置门槛。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "What Size Mini Split Do I Need for a Two-Car Garage?",
+          "source_id": "body"
+        },
+        {
+          "quote": "Can a Mini Split Heat a Garage in Winter?",
+          "source_id": "body"
+        },
+        {
+          "quote": "Will a Garage Mini Split Reduce Humidity?",
+          "source_id": "body"
+        }
+      ],
+      "id": "C03",
+      "reason": "正文覆盖容量、冬季供暖和除湿等至少三类长尾问题，满足第三方覆盖门槛。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "HSPF2 measures seasonal heating efficiency.",
+          "source_id": "body"
+        },
+        {
+          "quote": "rated heating capacity, SEER2, HSPF2",
+          "source_id": "body"
+        }
+      ],
+      "id": "C04",
+      "reason": "部分术语首次出现时得到解释，但SEER2等缩写未定义。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Use this guide to decide whether a mini split suits your garage, understand what affects sizing and prepare for an installation quote.",
+          "source_id": "body"
+        },
+        {
+          "quote": "Use the table below to organize your assessment, not as a fixed BTU sizing chart.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C05",
+      "reason": "正文明确选型和报价准备范围，并说明表格不提供固定容量计算。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "If you spend several hours a week working or exercising in the garage, a permanent system can make sense.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C06",
+      "reason": "正文明确面向经常在车库工作或锻炼的人群。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Choose suitable capacity, voltage and winter heating performance first, then consider the controls that fit your routine.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C07",
+      "reason": "正文从适用性到负荷、性能、商品比较和安装准备依次推进，逻辑连贯。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "A timer may be enough for regular workshop sessions, while Wi-Fi controls can make it easier to prepare a gym before you arrive.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C08",
+      "reason": "正文按使用规律区分定时器和联网控制的适用场景。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Do I Need a Dedicated Circuit, and Should I Choose 115V or 230V?",
+          "source_id": "body"
+        }
+      ],
+      "id": "C09",
+      "reason": "独立FAQ覆盖供电、容量、粉尘、湿度和安装费用等后续问题。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Review the five sizing checks, then request a load calculation for your garage.",
+          "source_id": "body"
+        }
+      ],
+      "id": "C10",
+      "reason": "结尾回到容量选择并提供计算负荷、比较商品和联系安装方的下一步。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E01",
+      "reason": "本文未承诺提供第一方调查、实验或原创统计，条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E02",
+      "reason": "本文未声称提出新的原创框架或模型，条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E03",
+      "reason": "本文未承诺开展原始实验或调查研究，条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E04",
+      "reason": "正文纠正常见选型简化而未挑战专业共识，逆向立场条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "E05",
+      "reason": "无法确认原创图表是否为必要支撑，且未提供图像内容或原创性证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "E06",
+      "reason": "未提供竞争内容集合，无法确认其覆盖了竞争者遗漏的问题。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Save the checklist below and send it with your request for an installation quote.",
+          "source_id": "body"
+        }
+      ],
+      "id": "E07",
+      "reason": "正文提供可保存的报价检查清单，但未展示独立下载模板或计算器。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "E08",
+      "reason": "已取回的相关文章属于同站且被截断，无法建立竞争内容深度优势。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Activities that produce heavy dust, oil mist, paint fumes or welding fumes also need an appropriate ventilation and equipment plan.",
+          "source_id": "body"
+        }
+      ],
+      "id": "E09",
+      "reason": "正文将暖通选型与工作间污染控制、用电和工具储存需求结合。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "E10",
+      "reason": "正文未作行业趋势或未来表现预测，前瞻主张条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Ept01",
+      "reason": "仅有作者姓名元数据，无法确认可见署名、头像和超过30词的作者简介。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Ept02",
+      "reason": "未提供作者相关学历、认证或从业年限证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "medium",
+      "evidence_refs": [
+        {
+          "quote": "A unit can operate in cold weather without producing enough heat to keep your garage comfortable.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept03",
+      "reason": "正文正确区分运行温度与供热能力，但全部暖通术语的准确性尚未独立核验。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Ept04",
+      "reason": "Evidence could not be located or applicability was invalid.",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "measure the enclosed floor area and ceiling height. Note partitions, separate rooms and tall shelving that could block airflow.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept05",
+      "reason": "前期资料收集步骤可重复，但未提供负荷计算方法和型号核验流程。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "A garage that stays open, or one you only visit briefly, may not benefit much from a permanent system.",
+          "source_id": "body"
+        },
+        {
+          "quote": "If the room gets too cold or stays damp, a dedicated dehumidifier may be a better fit.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept06",
+      "reason": "正文讨论长期敞开或短时使用及低冷负荷高湿等至少两类例外。",
+      "state": "pass"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Ept07",
+      "reason": "未提供技术演进论述或作者了解行业历史的证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Choose 115V or 230V for compatibility; voltage alone does not indicate efficiency.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept08",
+      "reason": "正文说明电压选择依据和控制功能取舍，但未记录作者实际选择过程。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Dry tools before storing them, avoid putting damp items in closed cabinets and keep the indoor filter clean.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Ept09",
+      "reason": "正文把湿度控制、工具储存和暖通维护联系起来。",
+      "state": "pass"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Ept10",
+      "reason": "未提供审阅者或事实核查标签证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp01",
+      "reason": "本文未声称第一人称使用经验，所给指南类型也未要求体验叙述。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp02",
+      "reason": "本文提供选型和安装准备建议而非感官体验评价，感官观察条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Before the job is finished, ask for a demonstration of the controls and an explanation of filter care and drainage checks.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Exp03",
+      "reason": "正文给出订购前、报价前和完工前的步骤，但没有具体时间线或执行记录。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp04",
+      "reason": "本文未声称亲手使用产品，实操照片条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp05",
+      "reason": "本文不评价长期使用效果，使用时长不是所承诺结论的依据。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Exp06",
+      "reason": "正文提供一般问题处理建议，未提供实际遭遇问题及解决过程的记录。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp07",
+      "reason": "正文仅说明可能的改进而未声称已观察到前后变化，条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "Exp08",
+      "reason": "规格和假设尺寸不属于体验测量，未提供实际使用的时间、成本或成功率数据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [],
+      "id": "Exp09",
+      "reason": "正文未声称重复测试或长期跟踪，条件不成立。",
+      "state": "na"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "These are illustrative examples, not customer installations.",
+          "source_id": "body"
+        }
+      ],
+      "id": "Exp10",
+      "reason": "正文明确示例不是客户实装，但未提供实际测试范围声明。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "O01",
+      "reason": "文本保留标题名称但未保留H1至H3标签，无法判断层级跳跃。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Use this guide to decide whether a mini split suits your garage, understand what affects sizing and prepare for an installation quote.",
+          "source_id": "body"
+        }
+      ],
+      "id": "O02",
+      "reason": "完整正文没有独立TL;DR或要点总结区，开头导读不能满足该第三方格式要求。",
+      "state": "fail"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "This table summarizes listing details; it does not tell you which capacity your garage needs.",
+          "source_id": "body"
+        }
+      ],
+      "id": "O03",
+      "reason": "正文明确使用表格组织型号规格和车库条件比较。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Five Checks Before Choosing Capacity\nArea and layout:",
+          "source_id": "body"
+        }
+      ],
+      "id": "O04",
+      "reason": "正文将并列检查项分组展示，但提取结果无法确认项目符号或编号格式。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "O05",
+      "reason": "仅有作者模式片段，缺少完整JSON-LD及其适用性验证结果。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Heat mode does not remove water vapor, and fan-only mode just circulates air.",
+          "source_id": "body"
+        }
+      ],
+      "id": "O06",
+      "reason": "章节主题集中，但多处段落短于第三方规定的3至5句。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "O07",
+      "reason": "提取文本不保留加粗或高亮信息，无法验证重点强调。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Table of Contents",
+          "source_id": "body"
+        }
+      ],
+      "id": "O08",
+      "reason": "正文有目录，但缺少锚点目标和跳转功能证据。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Choose a garage mini split using the calculated heating and cooling load, available voltage and cold-weather heating output.",
+          "source_id": "body"
+        },
+        {
+          "quote": "Choose suitable capacity, voltage and winter heating performance first, then consider the controls that fit your routine.",
+          "source_id": "body"
+        }
+      ],
+      "id": "O09",
+      "reason": "术语总体一致，但负荷、电压和冬季性能要求多次重复，仍有压缩空间。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Equipment dimensions and specifications from the 9,000 BTU listing. Physical unit size is not a garage load calculation; confirm model details with the installer.",
+          "source_id": "body"
+        }
+      ],
+      "id": "O10",
+      "reason": "文本中的图注说明用途和限制，但图像本身的信息量无法验证。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "9,000 BTU/h\n12,000 BTU/h",
+          "source_id": "body"
+        },
+        {
+          "quote": "Imagine two 20 × 24 ft garages, each with 480 sq. ft. of floor space.",
+          "source_id": "body"
+        },
+        {
+          "quote": "One has an 8 ft ceiling",
+          "source_id": "body"
+        },
+        {
+          "quote": "The other has a 12 ft ceiling",
+          "source_id": "body"
+        }
+      ],
+      "id": "R01",
+      "reason": "正文包含至少五个带单位的明确数值，满足第三方数量门槛但不证明实测。",
+      "state": "pass"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "CDC carbon monoxide guidance",
+          "source_id": "body"
+        },
+        {
+          "quote": "Building America guide to ductless heat pumps",
+          "source_id": "body"
+        },
+        {
+          "quote": "EPA’s indoor moisture guidance",
+          "source_id": "body"
+        }
+      ],
+      "id": "R02",
+      "reason": "正文有三处外部引用，但不足以满足这篇长文每500词一处的第三方门槛。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "CDC carbon monoxide guidance",
+          "source_id": "body"
+        },
+        {
+          "quote": "Building America guide to ductless heat pumps",
+          "source_id": "body"
+        },
+        {
+          "quote": "EPA’s indoor moisture guidance",
+          "source_id": "body"
+        }
+      ],
+      "id": "R03",
+      "reason": "正文优先引用三个政府或国家实验室来源，但其中两个未成功取回核验。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Improving the door and seals can reduce the load and help the garage return to a comfortable temperature after the door closes.",
+          "source_id": "body"
+        }
+      ],
+      "id": "R04",
+      "reason": "部分建议附近有引用，但该负荷改善主张等多处断言没有紧邻证据。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Choose a garage mini split using the calculated heating and cooling load, available voltage and cold-weather heating output.",
+          "source_id": "body"
+        }
+      ],
+      "id": "R05",
+      "reason": "正文交代选型步骤和判断标准，但没有负荷计算过程或商品参数核验方法。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "R06",
+      "reason": "近期发布日期不能证明最近更新日期，且未提供版本变更记录。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "US listing SKU\nPHK_35XYGTMT\nPHO_161GL6KZ",
+          "source_id": "body"
+        }
+      ],
+      "id": "R07",
+      "reason": "商品有品牌和精确SKU，但CDC、EPA及若干效率缩写未给出完整名称。",
+      "state": "partial"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Portable AC vs Mini Split AC for a Garage Workspace",
+          "source_id": "body"
+        },
+        {
+          "quote": "How to Clean an Air Conditioner Filter: A Complete Summer Maintenance Guide",
+          "source_id": "body"
+        }
+      ],
+      "id": "R08",
+      "reason": "正文使用描述性锚文本连接相关选型和维护主题，但完整站内链接网络未验证。",
+      "state": "partial"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "R09",
+      "reason": "未提供原始HTML标签，无法验证article、figure、time和cite语义元素。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Calling it a two-car garage does not tell you whether 9,000, 12,000, 18,000 or 24,000 BTU is the right choice.",
+          "source_id": "body"
+        },
+        {
+          "quote": "Parking spaces alone are not a sizing guide.",
+          "source_id": "body"
+        }
+      ],
+      "id": "R10",
+      "reason": "完整正文对容量选择和运行限制的陈述相互一致，未见实质内部事实矛盾。",
+      "state": "pass"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T01",
+      "reason": "元数据列有隐私和服务条款链接，但未提供对应正文或已取回政策内容。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T02",
+      "reason": "正文仅提供联系页面入口，未展示实体地址或至少两种联系方式。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T03",
+      "reason": "HTTPS链接不能证明全站HTTPS覆盖和无安全警告。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T04",
+      "reason": "自有品牌商品推广可见，但作者关系、付费投放或联盟关系未核实，不能判定披露条件或违规。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T05",
+      "reason": "未提供站点内容标准或审阅流程政策。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T06",
+      "reason": "未提供纠错页面或站点变更日志证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T07",
+      "reason": "没有页面渲染和交互观测，无法判断广告面积或侵入式弹窗。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "Never run a vehicle in an enclosed garage.",
+          "source_id": "body"
+        },
+        {
+          "quote": "Use a professional HVAC installer who follows the selected model’s instructions and local requirements.",
+          "source_id": "body"
+        }
+      ],
+      "id": "T08",
+      "reason": "正文针对尾气、用电和安装风险提供明确警示及专业人员要求。",
+      "state": "pass"
+    },
+    {
+      "confidence": "low",
+      "evidence_refs": [],
+      "id": "T09",
+      "reason": "未提供用户评论、购买验证或其他评论真实性证据。",
+      "state": "unknown"
+    },
+    {
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "quote": "contact GARVEE",
+          "source_id": "body"
+        }
+      ],
+      "id": "T10",
+      "reason": "正文提供联系入口和保修链接，但未展示退货细则、投诉渠道说明及响应时限。",
+      "state": "partial"
+    }
+  ],
+  "aaron": {
+    "advisory": true,
+    "cap_applied": false,
+    "catalog_version": "20.1.0",
+    "context": {
+      "content_type": "how-to-guide",
+      "market": "US",
+      "market_basis": "Garvee US storefront default; override market for another jurisdiction.",
+      "publication_state": "live"
+    },
+    "dimension_coverage": {
+      "A": 0,
+      "C": 100,
+      "E": 40,
+      "Ept": 50,
+      "Exp": 50,
+      "O": 70,
+      "R": 80,
+      "T": 20
+    },
+    "evidence_coverage": 52,
+    "external_validity": "advisory-until-outcome-calibrated",
+    "flags": [],
+    "framework": "CORE-EEAT",
+    "gaps": [
+      {
+        "id": "A01",
+        "reason": "未提供指向该站或文章的权威外链记录。"
+      },
+      {
+        "id": "A02",
+        "reason": "未提供媒体报道或媒体标识的可核验展示证据。"
+      },
+      {
+        "id": "A03",
+        "reason": "未提供相关行业奖项及颁发方证据。"
+      },
+      {
+        "id": "A04",
+        "reason": "未提供作者或品牌的演讲、出版或专利记录。"
+      },
+      {
+        "id": "A05",
+        "reason": "未提供品牌搜索量数据。"
+      },
+      {
+        "id": "A06",
+        "reason": "未提供可核验的真实用户证言。"
+      },
+      {
+        "id": "A07",
+        "reason": "未明确知识图谱是否影响本次审计目标，也未提供对应实体记录。"
+      },
+      {
+        "id": "A08",
+        "reason": "缺少跨站作者和品牌信息，无法比较实体一致性。"
+      },
+      {
+        "id": "A09",
+        "reason": "引用政府指导不构成权威机构合作关系证据。"
+      },
+      {
+        "id": "A10",
+        "reason": "未提供专业社区参与及影响力记录。"
+      },
+      {
+        "id": "E05",
+        "reason": "无法确认原创图表是否为必要支撑，且未提供图像内容或原创性证据。"
+      },
+      {
+        "id": "E06",
+        "reason": "未提供竞争内容集合，无法确认其覆盖了竞争者遗漏的问题。"
+      },
+      {
+        "id": "E08",
+        "reason": "已取回的相关文章属于同站且被截断，无法建立竞争内容深度优势。"
+      },
+      {
+        "id": "Ept01",
+        "reason": "仅有作者姓名元数据，无法确认可见署名、头像和超过30词的作者简介。"
+      },
+      {
+        "id": "Ept02",
+        "reason": "未提供作者相关学历、认证或从业年限证据。"
+      },
+      {
+        "id": "Ept04",
+        "reason": "Evidence could not be located or applicability was invalid."
+      },
+      {
+        "id": "Ept07",
+        "reason": "未提供技术演进论述或作者了解行业历史的证据。"
+      },
+      {
+        "id": "Ept10",
+        "reason": "未提供审阅者或事实核查标签证据。"
+      },
+      {
+        "id": "Exp06",
+        "reason": "正文提供一般问题处理建议，未提供实际遭遇问题及解决过程的记录。"
+      },
+      {
+        "id": "Exp08",
+        "reason": "规格和假设尺寸不属于体验测量，未提供实际使用的时间、成本或成功率数据。"
+      },
+      {
+        "id": "O01",
+        "reason": "文本保留标题名称但未保留H1至H3标签，无法判断层级跳跃。"
+      },
+      {
+        "id": "O05",
+        "reason": "仅有作者模式片段，缺少完整JSON-LD及其适用性验证结果。"
+      },
+      {
+        "id": "O07",
+        "reason": "提取文本不保留加粗或高亮信息，无法验证重点强调。"
+      },
+      {
+        "id": "R06",
+        "reason": "近期发布日期不能证明最近更新日期，且未提供版本变更记录。"
+      },
+      {
+        "id": "R09",
+        "reason": "未提供原始HTML标签，无法验证article、figure、time和cite语义元素。"
+      },
+      {
+        "id": "T01",
+        "reason": "元数据列有隐私和服务条款链接，但未提供对应正文或已取回政策内容。"
+      },
+      {
+        "id": "T02",
+        "reason": "正文仅提供联系页面入口，未展示实体地址或至少两种联系方式。"
+      },
+      {
+        "id": "T03",
+        "reason": "HTTPS链接不能证明全站HTTPS覆盖和无安全警告。"
+      },
+      {
+        "id": "T04",
+        "reason": "自有品牌商品推广可见，但作者关系、付费投放或联盟关系未核实，不能判定披露条件或违规。"
+      },
+      {
+        "id": "T05",
+        "reason": "未提供站点内容标准或审阅流程政策。"
+      },
+      {
+        "id": "T06",
+        "reason": "未提供纠错页面或站点变更日志证据。"
+      },
+      {
+        "id": "T07",
+        "reason": "没有页面渲染和交互观测，无法判断广告面积或侵入式弹窗。"
+      },
+      {
+        "id": "T09",
+        "reason": "未提供用户评论、购买验证或其他评论真实性证据。"
+      }
+    ],
+    "observed_at": "2026-10-12",
+    "profile": "how-to-guide",
+    "schema_version": "3.0",
+    "score_confidence": "not_scored",
+    "score_interval": [
+      43,
+      83
+    ],
+    "score_state": "NOT_SCORED",
+    "status": "NEEDS_INPUT",
+    "target": "https://www.garvee.com/blogs/buying-guides/how-to-choose-a-mini-split-for-a-garage-workshop-or-gym",
+    "verdict": "UNDECIDED",
+    "veto_count": 0,
+    "veto_items_failed": []
+  },
+  "versions": {
+    "aaron": {
+      "archive_sha256": "f071c6dafc546db850b78166336e254fc1d5f7439eb68d18132a694eb93b5021",
+      "catalog_version": "20.1.0",
+      "commit": "a342b203bb969762ee085c51b249896958e2ebd4",
+      "release": "v20.1.0"
+    },
+    "detector": "Originality-v3",
+    "google": "google-2026-10-12",
+    "google_hash": "dbc1fcd0171dbfcf7eb7ad73aeb941db6a36deac5194c39bec3cabf620c6d73c",
+    "model": {
+      "name": "gpt-6.1-sol",
+      "provider": "codex-cli"
+    },
+    "service": "0.1.0",
+    "service_source_hash": "93c7384adecc2be239ad297dd004ce005890e54da99b5806934422eecf114aef",
+    "version_set": "initial-4e293d2811a10e55"
+  },
+  "slug": "mini-split",
+  "display_title": "车库／工作室／健身房空调选购",
+  "category": "空调选购指南",
+  "sources": [
+    {
+      "id": "reference-1",
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "status": "unavailable"
+    },
+    {
+      "id": "reference-2",
+      "url": "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps",
+      "status": "unavailable"
+    },
+    {
+      "id": "reference-3",
+      "url": "https://www.epa.gov/mold/mold-course-chapter-2",
+      "status": "retrieved"
+    },
+    {
+      "id": "reference-4",
+      "url": "https://support.garvee.com/p/QVRUI",
+      "status": "unavailable"
+    },
+    {
+      "id": "reference-5",
+      "url": "https://www.garvee.com/blogs/buying-guides/portable-ac-vs-mini-split-ac",
+      "status": "retrieved"
+    },
+    {
+      "id": "reference-6",
+      "url": "https://www.garvee.com/products/garvee-9000-btu-mini-split-air-phk-35xygtmt?utm_source=blog&utm_medium=article&utm_campaign=blog_mini_split_for_garage&utm_content=footer_recommendation_9000_btu",
+      "status": "retrieved"
+    }
+  ]
+}
