@@ -4,7 +4,7 @@ import { buildNewsroomJsonLd, serializeJsonLd } from './newsroom-structured-data
 
 const content = JSON.parse(await readFile(new URL('./newsroom-data.json', import.meta.url), 'utf8'));
 const organization = {
-  homeUrl: 'https://garvee.com/en',
+  homeUrl: 'https://garvee.com/',
   organizationUrl: 'https://www.garvee.com/',
   organizationId: 'https://www.garvee.com/#organization',
   websiteUrl: 'https://www.garvee.com/',
@@ -42,7 +42,7 @@ assert.equal(pageEntity.hasPart['@id'], asset['@id']);
 assert.equal(asset.isPartOf['@id'], pageEntity['@id']);
 assert.ok(!productionExample['@graph'].some(node => node['@type'] === 'ImageObject'));
 assert.ok(!JSON.stringify(productionExample).includes('a67y76j.garvee.com'));
-assert.throws(() => buildNewsroomJsonLd({ pageUrl: 'https://a67y76j.garvee.com/pages/news-room', ...organization, ...content, websiteUrl: 'https://garvee.com/en' }));
+assert.throws(() => buildNewsroomJsonLd({ pageUrl: 'https://a67y76j.garvee.com/pages/news-room', ...organization, ...content, websiteUrl: 'https://garvee.com/not-a-site-root' }));
 const breadcrumb = preview['@graph'].find(node => node['@type'] === 'BreadcrumbList');
 assert.deepEqual(breadcrumb.itemListElement.map(item => [item.position, item.name, item.item]), [
   [1, 'Home', organization.homeUrl],

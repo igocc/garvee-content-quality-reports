@@ -18,7 +18,7 @@
 </div></header>
 <nav aria-label="报告目录" class="topnav"><div class="wrap navlinks"><a href="#p0">P0 发布前</a><a href="#p1">P1 内容与元数据</a><a href="#structure">P1 语义与 Schema</a><a href="#js-audit">JS 请求精简</a><a href="#p2">P2 体验与精简</a><a href="#acceptance">通过项与验收</a></div></nav>
 <main class="wrap">
-<section aria-labelledby="p0-title" id="p0"><div class="section-head"><span class="level">P0</span><h2 id="p0-title">发布前必须修复</h2></div><div class="table-wrap"><table><thead><tr><th>检查项</th><th>问题</th><th>具体解决方法</th></tr></thead><tbody><tr><th scope="row">无 JS 正文</th><td>服务器已输出内容，但放在 <code>div[hidden]#S:0</code>，依赖激活脚本显示；禁用 JS 后正文不可见。</td><td>在服务端首次输出<strong>可见</strong>的 H1、新闻、日期、链接、资源和联系信息。移除核心内容的隐藏流式壳；客户端只负责交互。关闭 JS 验收。</td></tr><tr><th scope="row">正式页面与索引</th><td>预览域 <code>robots.txt</code> 为 <code>Disallow: /</code>；正式 <code>www.garvee.com/pages/news-room</code> 实测 404。</td><td>正式路由部署为 200，允许抓取且无 noindex。预览站保留保护；不要直接解除预览 robots 来代替正式上线。</td></tr><tr><th scope="row">规范地址</th><td>无 canonical；<code>/en/pages/news-room</code> 与无前缀版本均 200。主站首页 canonical 为 <code>https://garvee.com/en</code>。</td><td>先确定正式主机与语言路径；其返回 200 后，使 canonical、og:url、站内链接、sitemap 一致。重复版本 301/308 到正式地址，或设置正确 canonical。</td></tr><tr><th scope="row">媒体 Logo 错配</th><td>AP → Tom’s Guide；Yahoo Finance → Digital Trends；New York Post → Homes &amp; Gardens；MarketWatch → TechRadar。两条轨道共 8 个错误入口。</td><td>替换为对应媒体的真实 GARVEE 原文；无法核实时删除 Logo 和链接。不要用媒体首页代替出处。动画副本同步处理。</td></tr><tr><th scope="row">日期与栏目</th><td>“October 2026”下为 2025 年新闻稿；重点报道写 July 4，原文为 July 3, 2026。</td><td>栏目改为 <strong>Press releases / Featured coverage</strong>。三个新闻稿日期：2025-12-13、2025-11-15、2025-11-07；重点报道改 2026-07-03，并显示完整年份。</td></tr></tbody></table></div><p class="note">SSR 判断：内容存在于服务端响应，但禁用 JS 后不可见；属于依赖 JS 激活的流式输出，不应写成“纯 CSR”或“Google 一定无法索引”。预览 robots 已单独阻止抓取。</p></section>
+<section aria-labelledby="p0-title" id="p0"><div class="section-head"><span class="level">P0</span><h2 id="p0-title">发布前必须修复</h2></div><div class="table-wrap"><table><thead><tr><th>检查项</th><th>问题</th><th>具体解决方法</th></tr></thead><tbody><tr><th scope="row">无 JS 正文</th><td>服务器已输出内容，但放在 <code>div[hidden]#S:0</code>，依赖激活脚本显示；禁用 JS 后正文不可见。</td><td>在服务端首次输出<strong>可见</strong>的 H1、新闻、日期、链接、资源和联系信息。移除核心内容的隐藏流式壳；客户端只负责交互。关闭 JS 验收。</td></tr><tr><th scope="row">正式页面与索引</th><td>预览域 <code>robots.txt</code> 为 <code>Disallow: /</code>；正式 <code>www.garvee.com/pages/news-room</code> 实测 404。</td><td>正式路由部署为 200，允许抓取且无 noindex。预览站保留保护；不要直接解除预览 robots 来代替正式上线。</td></tr><tr><th scope="row">规范地址</th><td>无 canonical；<code>/en/pages/news-room</code> 与无前缀版本均 200。首页规范地址需按当前要求统一。</td><td>先确定正式主机与语言路径；其返回 200 后，使 canonical、og:url、站内链接、sitemap 一致。重复版本 301/308 到正式地址，或设置正确 canonical。</td></tr><tr><th scope="row">媒体 Logo 错配</th><td>AP → Tom’s Guide；Yahoo Finance → Digital Trends；New York Post → Homes &amp; Gardens；MarketWatch → TechRadar。两条轨道共 8 个错误入口。</td><td>替换为对应媒体的真实 GARVEE 原文；无法核实时删除 Logo 和链接。不要用媒体首页代替出处。动画副本同步处理。</td></tr><tr><th scope="row">日期与栏目</th><td>“October 2026”下为 2025 年新闻稿；重点报道写 July 4，原文为 July 3, 2026。</td><td>栏目改为 <strong>Press releases / Featured coverage</strong>。三个新闻稿日期：2025-12-13、2025-11-15、2025-11-07；重点报道改 2026-07-03，并显示完整年份。</td></tr></tbody></table></div><p class="note">SSR 判断：内容存在于服务端响应，但禁用 JS 后不可见；属于依赖 JS 激活的流式输出，不应写成“纯 CSR”或“Google 一定无法索引”。预览 robots 已单独阻止抓取。</p></section>
 <section aria-labelledby="p1-title" id="p1"><div class="section-head"><span class="level blue">P1</span><h2 id="p1-title">内容、元数据与链接</h2></div><div class="table-wrap"><table><thead><tr><th>检查项</th><th>问题</th><th>具体解决方法</th></tr></thead><tbody><tr><th scope="row">标题与描述</th><td>Title 带 October Preview；描述和 H1 偏口号，页面意图不清。</td><td>直接采用下面一版元数据。H1 为 <strong>GARVEE Newsroom</strong>；原口号放副标题。</td></tr><tr><th scope="row">分享信息</th><td>缺 <code>og:url</code>、<code>og:image</code>、<code>twitter:image</code>。</td><td>URL 与正式 canonical 一致。发布一张真实可访问的分享图，补图片 alt；使用 <code>summary_large_image</code>。正式 URL 和图片未核验前不填虚构地址。</td></tr><tr><th scope="row">报道性质</th><td>Tom’s Guide、TechRadar、Homes &amp; Gardens 原文均披露 Sponsored offer，页面未明确区分。</td><td>对应卡片标 <strong>Sponsored coverage</strong>。历史折扣按报道背景表述；有商业链接关系时加 <code>sponsored</code>，仍保留用户要求的 <code>nofollow</code>。</td></tr><tr><th scope="row">联系人身份</th><td>Andrew Miller 在原文是 Contact Information 联系人，未证实为作者。</td><td>标 <strong>Press contact: Andrew Miller</strong>，或移除单独署名；不生成 author 字段。</td></tr><tr><th scope="row">条目信息</th><td>媒体卡片以泛化宣传语为主；缺原始日期和明确出处。</td><td>显示真实文章标题、媒体、发布日期、合作标签及一句摘要。三家媒体日期：TechRadar 2026-06-29；Tom’s Guide 2026-07-02；H&amp;G 2026-07-03。</td></tr><tr><th scope="row">公司与品牌资料</th><td>品牌介绍抽象；缺 About/主站入口。Logo 下载依赖构建哈希地址，正式同路径 404。</td><td>补可核实的公司简介和 About/主站链接。品牌资源发布到稳定路径，验证 200，注明用途与使用许可。不要虚构经营年限、规模或认证。</td></tr><tr><th scope="row">导航和锚文本</th><td>“See October coverage”跳到新闻稿；“home”实际是 #top；重复 Read story 名称不具体。</td><td>改为 <strong>View press releases</strong>，或指向 #coverage；Logo 的 home 指向主站；正文链接使用文章标题或明确可访问名称。</td></tr><tr><th scope="row">站点 sitemap</th><td>新闻室未入正式 pages sitemap；6 个旧博客 404 仍在 blog sitemap。新闻室已移除旧博客入口。</td><td>正式新闻室 200 后加入规范 URL。旧博客恢复内容或按真实替代关系重定向；无法恢复则从 sitemap 移除。</td></tr></tbody></table></div>
 <h3>采用这一版元数据</h3>
 <div class="metadata"><p><span class="label">Title · 49 characters</span><strong>GARVEE Newsroom | Press Releases &amp; Corporate News</strong></p><p><span class="label">Description · 148 characters</span>Explore the GARVEE Newsroom for press releases, media coverage, brand assets, and media contacts. Get official GARVEE news and updates in one place.</p></div>
@@ -48,10 +48,9 @@
 <tr><th scope="row">媒体报道卡片</th><td>当前 div.coverage-grid 下多个整卡 a，没有 li。</td><td>改为 <code>ul.coverage-grid &gt; li &gt; a.outlet</code>；卡内放 H3、日期和 Sponsored coverage，外链保持 nofollow。</td></tr>
 <tr><th scope="row">面包屑</th><td>新增 Home → Newsroom 需要表达导航层级。</td><td>采用 <code>nav &gt; ol &gt; li</code>；Home 为真实首页链接，Newsroom 为 aria-current=page 文本；顺序与 BreadcrumbList 一致。</td></tr>
 </tbody></table></div>
-<p class="note"><strong>ul 是无序列表，ol 是有序列表，li 是条目。</strong>新闻稿与媒体卡片是并列集合，用 ul；日期排序可以保留，不等于必须用 ol。面包屑用 ol 表达层级。ul/ol 的直接条目必须是 li；纯布局 div 不强改，单个 Featured 仍可用 article。</p>
 <details><summary>完整列表片段：3 条新闻稿＋3 条媒体卡片＋面包屑</summary><pre><code>&lt;nav aria-label="Breadcrumb"&gt;
   &lt;ol class="newsroom-breadcrumb"&gt;
-    &lt;li&gt;&lt;a href="https://garvee.com/en"&gt;Home&lt;/a&gt; &lt;span aria-hidden="true"&gt;→&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://garvee.com/"&gt;Home&lt;/a&gt; &lt;span aria-hidden="true"&gt;→&lt;/span&gt;&lt;/li&gt;
     &lt;li&gt;&lt;span aria-current="page"&gt;Newsroom&lt;/span&gt;&lt;/li&gt;
   &lt;/ol&gt;
 &lt;/nav&gt;
@@ -120,7 +119,7 @@
 <details><summary>HTML 结构示例：单一 main、新闻列表、日期与联系信息</summary><pre><code>&lt;main id="main-content"&gt;
   &lt;nav aria-label="Breadcrumb"&gt;
     &lt;ol&gt;
-      &lt;li&gt;&lt;a href="https://garvee.com/en"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://garvee.com/"&gt;Home&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span aria-current="page"&gt;Newsroom&lt;/span&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/nav&gt;
@@ -191,7 +190,7 @@ export default function NewsroomBreadcrumb({ homeUrl, pageUrl }) {
       &lt;/ol&gt;
     &lt;/nav&gt;
   );
-}</code></pre><p class="muted">同一组 homeUrl/pageUrl 传入两个组件；完整方案传 includeLists=true、websiteUrl、websiteId 及经验证的 brandAsset；基础方案传 includeLists=false 且省略 brandAsset。Home 使用确认的首页规范地址，当前样例为 https://garvee.com/en。</p></details>
+}</code></pre><p class="muted">同一组 homeUrl/pageUrl 传入两个组件；完整方案传 includeLists=true、websiteUrl、websiteId 及经验证的 brandAsset；基础方案传 includeLists=false 且省略 brandAsset。Home 统一使用指定首页地址 https://garvee.com/。</p></details>
 <details><summary>完整预览 JSON-LD：8 个实体及全部关联</summary><p class="muted">Organization 的 www @id 为建议示例，不是已发现的线上实体；集成时优先复用主站 @id。正式上线替换页面 URL；不把本报告当新闻室部署。</p><pre><code>{
   "@context": "https://schema.org",
   "@graph": [
@@ -257,7 +256,7 @@ export default function NewsroomBreadcrumb({ homeUrl, pageUrl }) {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://garvee.com/en"
+          "item": "https://garvee.com/"
         },
         {
           "@type": "ListItem",
@@ -385,7 +384,7 @@ export default function NewsroomBreadcrumb({ homeUrl, pageUrl }) {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://garvee.com/en"
+          "item": "https://garvee.com/"
         },
         {
           "@type": "ListItem",

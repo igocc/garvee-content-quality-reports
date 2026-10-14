@@ -69,9 +69,9 @@ Home 是真实首页链接；Newsroom 是当前页文本，带 `aria-current="pa
 
 ## 4. URL 与字段规则
 
-- `homeUrl`：真实首页规范地址。样例采用本次首页响应 canonical `https://garvee.com/en`，上线按站点统一配置确认。
+- `homeUrl`：真实首页规范地址。按用户当前要求统一为 `https://garvee.com/`，HTML 导航和 BreadcrumbList 使用同一地址。
 - `pageUrl`：预览样例为 `https://a67y76j.garvee.com/pages/news-room`；正式版替换为返回 200 的唯一 newsroom 地址，与 canonical/og:url/sitemap 一致。
-- `websiteUrl/websiteId`：WebSite.url 使用主域或子域根地址，不能把 /en 当作单独网站；样例为 https://www.garvee.com/ 与 #website。主站首页 canonical 目前指向 /en，正式发布必须先统一根域与语言路径配置，不能声称样例已符合 Google 网站名称展示资格。
+- `websiteUrl/websiteId`：WebSite.url 使用主域或子域根地址，不能把 /en 当作单独网站；样例为 https://www.garvee.com/ 与 #website。正式发布时同步核验首页 canonical 与根域配置；本样例不承诺 Google 网站名称展示资格。
 - 主站已有 WebSite 时复用 @id。Google 网站名称标记须部署在域名/子域根首页；仅新闻室新增不能替代首页标记。website-homepage.example.json/html 提供根首页候选片段，合并已有实体，禁止重复创建。新闻室的 isPartOf 引用同一 WebSite。
 - `brandAsset`：仅传页面实际可见、已验证为 SVG 的 {title,url}。本次预览资源复查 200、image/svg+xml；正式同路径 404。因此生产样例暂不生成 ImageObject；先发布稳定正式资产，确认 200 且 HTML 下载链接一致，再传入。不要把预览文件地址带进正式图谱。
 - `organizationUrl/organizationId`：样例为 www 主域与 `#organization`；这是参考配置，不是已检测到的既存实体。根布局已有组织时复用并合并 contactPoint，不覆盖客服等信息。
