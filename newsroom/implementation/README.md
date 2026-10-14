@@ -103,3 +103,9 @@ CollectionPage 已是 WebPage 子类型，不再复制一份同 URL 的 WebPage�
 若以后新增真实内容，再按内容匹配类型；不要按“支持类型清单”逐项堆砌。Organization.logo、官方社交 sameAs、法律主体和电话等只在正式地址与事实核验后填入。本次没有这些已核实生产配置，未虚构。
 
 [Google 网站名称与根首页部署](https://developers.google.com/search/docs/appearance/site-names) · [WebSite](https://schema.org/WebSite) · [ImageObject](https://schema.org/ImageObject) · [hasPart](https://schema.org/hasPart)
+
+## 7. Newsroom JS 精简
+
+用户范围：第三方只保留基础访问统计与必要监控，营销代码不进入新闻室。详细配置与触发证据见 newsroom-js-optimization.md、newsroom-js-audit-summary.json。
+
+从页面布局停止 Klaviyo/Convbox initializer、客户识别、冗余商城 analytics 和商店徽章；Web GTM 逐事件排除营销标签及序列依赖；sGTM 保留 Analytics 转发并阻止该页面的营销目的地。未取得应用源码及 GTM/sGTM 管理端，交付为已核查的实施规格，未执行线上删除。

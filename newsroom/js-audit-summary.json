@@ -1,0 +1,80 @@
+{
+  "audit_date": "2026-10-14",
+  "page_url": "https://a67y76j.garvee.com/pages/news-room",
+  "policy": "Basic analytics and necessary monitoring only; no marketing SDKs or commerce probes",
+  "measurement": {
+    "window_seconds": 18,
+    "cache_disabled": true,
+    "no_deliberate_interaction": true,
+    "web_requests": 197,
+    "script_requests": 124,
+    "klaviyo_requests": 51,
+    "klaviyo_script_requests": 43,
+    "note": "Extensions/nonstandard URLs excluded. One sample, not CWV or a fixed request count."
+  },
+  "confirmed_sources": [
+    {
+      "item": "YutoAds/cart.js",
+      "source": "Published Web GTM tag_id 135 fires on gtm.js with no block rule for this tag; loads YutoAds/check-cart.js which requests /cart.js",
+      "remove_at": "Web GTM marketing tag + upstream bootstrap"
+    },
+    {
+      "item": "Klaviyo",
+      "source": "Page klaviyo-init immediately appends SDK; bot UA guard only",
+      "remove_at": "Server-rendered initializer"
+    },
+    {
+      "item": "Convbox",
+      "source": "Page convbox-init: first interaction OR 2000 ms timeout",
+      "remove_at": "Server-rendered initializer, queue, listeners, timer"
+    },
+    {
+      "item": "AddShoppers/Shop.pe",
+      "source": "Web GTM tag_id 218 fires on gtm.js, no block rule",
+      "remove_at": "Web GTM tag and sequencing dependencies"
+    },
+    {
+      "item": "TriplePixel",
+      "source": "Web GTM tag_id 234 fires on gtm.init, no block rule; tag 237 page_view applies outside collections/products/search/cart including newsroom",
+      "remove_at": "Initialization and event marketing tags"
+    },
+    {
+      "item": "Customer lookup",
+      "source": "First-party chunk 2381 SWR revalidateOnMount=true; sets customer email/id globals",
+      "remove_at": "Newsroom customer-identification component"
+    },
+    {
+      "item": "GraphQL",
+      "source": "First-party chunk 995 query ensureCookies / consentManagement; not a cart query",
+      "remove_at": "Only redundant commerce analytics cookie initializer; preserve actual consent management"
+    },
+    {
+      "item": "Merchant widget",
+      "source": "First-party chunk 5529 useEffect directly injects merchantwidget.js",
+      "remove_at": "Newsroom merchant badge component"
+    }
+  ],
+  "isolation": {
+    "condition": "Only Web GTM bootstrap blocked in audit browser; 18s reload",
+    "cart_js_before": 1,
+    "cart_js_after": 0,
+    "graphql_after": 1,
+    "customer_after": 1,
+    "klaviyo_after": 51,
+    "merchant_script_after": 1,
+    "h1_readable": true,
+    "note": "Diagnostic only; not the complete optimization and not deployed"
+  },
+  "sgtm": {
+    "observed_endpoint": "https://metrics.garvee.com/g/collect",
+    "published_web_google_tag_setting": "server_container_url=metrics.garvee.com",
+    "server_admin_rules_verified": false,
+    "prescription": "Map page_type into GA4 event data; retain analytics forwarding, exclude advertising/marketing destinations for newsroom"
+  },
+  "limits": [
+    "No GARVEE production source or GTM/sGTM admin changes",
+    "No before/after CWV score",
+    "Multiple collect endpoints do not by themselves prove duplicate events",
+    "URLs stripped of query values and no visitor data published"
+  ]
+}
