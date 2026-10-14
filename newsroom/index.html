@@ -42,7 +42,80 @@
 }</code></pre><p class="muted">在服务端输出 a 标签时设置 rel；不要上线后仅用 JS 批量补属性。边界测试：garvee.com / a.garvee.com 为站内；garvee.com.example.org / fakegarvee.com 为外部。</p></details>
 </section>
 <section aria-labelledby="structure-title" id="structure"><div class="section-head"><span class="level blue">P1</span><h2 id="structure-title">语义化与结构化数据</h2></div>
-<h3>HTML：按实际内容调整</h3><div class="table-wrap"><table><thead><tr><th>检查项</th><th>问题</th><th>具体解决方法</th></tr></thead><tbody><tr><th scope="row">main 嵌套</th><td>正常渲染存在两个嵌套 main。</td><td>保留唯一 <code>main</code>；内部纯布局容器改为 div。保持一个 H1。</td></tr><tr><th scope="row">目录语义</th><td>新闻稿与媒体卡片是一组链接条目，当前缺列表结构。</td><td>采用 <code>ul &gt; li</code>；每条用 H3 链接、time、来源与合作标签。重点报道摘要保留 article。</td></tr><tr><th scope="row">time 日期</th><td><code>&lt;time&gt;Dec 13&lt;/time&gt;</code> 没有合法机器日期。</td><td>补 <code>datetime="2025-12-13"</code>，可见文字显示年份。其余条目同样处理。</td></tr><tr><th scope="row">按钮状态</th><td>Access / Assortment / Assurance 只有 active 样式。</td><td>button 增加 <code>aria-pressed</code> 和 <code>aria-controls</code>；切换时同步状态。服务端展示必要文本；不要只因视觉类似就强套 tabs。</td></tr><tr><th scope="row">动画副本</th><td>aria-hidden 轨道内仍有可聚焦的空名称链接。</td><td>副本只留装饰图片，不保留交互 a；原轨道保留真实链接、名称和 nofollow。</td></tr><tr><th scope="row">联系信息</th><td>页脚邮箱未明确联系语义。</td><td>Media contact 标题下用 address 包裹邮箱；标题、版权留在 address 外。</td></tr></tbody></table></div>
+<h3 id="list-semantics">HTML 列表语义：ul/li 与 ol/li</h3>
+<div class="table-wrap"><table><thead><tr><th>位置</th><th>问题</th><th>具体改法</th></tr></thead><tbody>
+<tr><th scope="row">新闻稿列表</th><td>当前 div.news-grid 下多个 article，目录缺少列表组织。</td><td>改为 <code>ul.news-grid &gt; li.story</code>；每条放 H3 标题链接、time datetime、来源。若以后有独立摘要，也可在 li 内保留 article。</td></tr>
+<tr><th scope="row">媒体报道卡片</th><td>当前 div.coverage-grid 下多个整卡 a，没有 li。</td><td>改为 <code>ul.coverage-grid &gt; li &gt; a.outlet</code>；卡内放 H3、日期和 Sponsored coverage，外链保持 nofollow。</td></tr>
+<tr><th scope="row">面包屑</th><td>新增 Home → Newsroom 需要表达导航层级。</td><td>采用 <code>nav &gt; ol &gt; li</code>；Home 为真实首页链接，Newsroom 为 aria-current=page 文本；顺序与 BreadcrumbList 一致。</td></tr>
+</tbody></table></div>
+<p class="note"><strong>ul 是无序列表，ol 是有序列表，li 是条目。</strong>新闻稿与媒体卡片是并列集合，用 ul；日期排序可以保留，不等于必须用 ol。面包屑用 ol 表达层级。ul/ol 的直接条目必须是 li；纯布局 div 不强改，单个 Featured 仍可用 article。</p>
+<details><summary>完整列表片段：3 条新闻稿＋3 条媒体卡片＋面包屑</summary><pre><code>&lt;nav aria-label="Breadcrumb"&gt;
+  &lt;ol class="newsroom-breadcrumb"&gt;
+    &lt;li&gt;&lt;a href="https://garvee.com/en"&gt;Home&lt;/a&gt; &lt;span aria-hidden="true"&gt;→&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span aria-current="page"&gt;Newsroom&lt;/span&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/nav&gt;
+
+&lt;section id="news" aria-labelledby="news-title"&gt;
+  &lt;h2 id="news-title"&gt;Press releases&lt;/h2&gt;
+  &lt;ul class="news-grid" role="list"&gt;
+    &lt;li class="story"&gt;
+      &lt;h3&gt;&lt;a href="https://www.24-7pressrelease.com/press-release/529794/garveecom-shares-key-observations-on-late-season-christmas-decorating-trends-for-2025" target="_blank" rel="nofollow noopener"&gt;GARVEE.com Shares Key Observations on Late-Season Christmas Decorating Trends for 2025&lt;/a&gt;&lt;/h3&gt;
+      &lt;time datetime="2025-12-13"&gt;2025-12-13&lt;/time&gt;
+      &lt;p&gt;Company press release · 24-7PressRelease&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li class="story"&gt;
+      &lt;h3&gt;&lt;a href="https://www.24-7pressrelease.com/press-release/528803/garveecom-outlines-2025-safety-standards-for-ride-on-toys-amid-holiday-shopping-surge" target="_blank" rel="nofollow noopener"&gt;GARVEE.com Outlines 2025 Safety Standards for Ride On Toys Amid Holiday Shopping Surge&lt;/a&gt;&lt;/h3&gt;
+      &lt;time datetime="2025-11-15"&gt;2025-11-15&lt;/time&gt;
+      &lt;p&gt;Company press release · 24-7PressRelease&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li class="story"&gt;
+      &lt;h3&gt;&lt;a href="https://www.24-7pressrelease.com/press-release/528503/garveecom-expands-cordless-outdoor-snow-pusher-lineup-meeting-demand-for-targeted-winter-snow-solutions" target="_blank" rel="nofollow noopener"&gt;GARVEE.com Expands Cordless Outdoor Snow Pusher Lineup, Meeting Demand for Targeted Winter Snow Solutions&lt;/a&gt;&lt;/h3&gt;
+      &lt;time datetime="2025-11-07"&gt;2025-11-07&lt;/time&gt;
+      &lt;p&gt;Company press release · 24-7PressRelease&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;section id="coverage" aria-labelledby="coverage-title"&gt;
+  &lt;h2 id="coverage-title"&gt;Media coverage&lt;/h2&gt;
+  &lt;ul class="coverage-grid" role="list"&gt;
+    &lt;li&gt;
+      &lt;a class="outlet" href="https://www.techradar.com/computing/one-cool-deal-up-to-55-percent-off-air-conditioners-at-garvee" target="_blank" rel="nofollow noopener"&gt;
+        &lt;h3&gt;TechRadar — Up to 55% off Garvee air conditioners for summer cooling.&lt;/h3&gt;
+        &lt;time datetime="2026-06-29"&gt;2026-06-29&lt;/time&gt;
+        &lt;p&gt;Sponsored coverage&lt;/p&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a class="outlet" href="https://www.tomsguide.com/home/stay-cool-this-summer-with-up-to-55-percent-off-air-conditioners-at-garvee" target="_blank" rel="nofollow noopener"&gt;
+        &lt;h3&gt;Tom’s Guide — Summer cooling coverage featuring Garvee air-conditioner offers.&lt;/h3&gt;
+        &lt;time datetime="2026-07-02"&gt;2026-07-02&lt;/time&gt;
+        &lt;p&gt;Sponsored coverage&lt;/p&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a class="outlet" href="https://www.homesandgardens.com/household/home-tech/garvee-summer-discounts-2026" target="_blank" rel="nofollow noopener"&gt;
+        &lt;h3&gt;Homes &amp;amp; Gardens — Smart home climate-solution offers for staying cool this summer.&lt;/h3&gt;
+        &lt;time datetime="2026-07-03"&gt;2026-07-03&lt;/time&gt;
+        &lt;p&gt;Sponsored coverage&lt;/p&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;style&gt;
+.news-grid, .coverage-grid, .newsroom-breadcrumb {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.newsroom-breadcrumb { display: flex; gap: .5rem; }
+.coverage-grid &gt; li { display: flex; }
+.coverage-grid .outlet { width: 100%; }
+&lt;/style&gt;</code></pre><p class="muted">片段按审查数据生成，实际页面应共用动态展示数组；复用 grid 类并重置默认 margin/padding/list-style。隐藏项目符号的 ul 保留 role=list。先在服务端输出真实内容；不要仅由 JS 拼列表，也不要用 JSON-LD 代替 HTML 语义。</p><div class="assets"><a download="" href="implementation/newsroom-list-markup.html">下载可复制 HTML 片段</a></div></details>
+<p class="muted"><a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element" rel="nofollow noopener" target="_blank">HTML ul 规范</a> · <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-ol-element" rel="nofollow noopener" target="_blank">HTML ol 规范</a>。这是语义与可访问性修复，不承诺直接提升排名。</p>
+<h3>其它 HTML 语义调整</h3><div class="table-wrap"><table><thead><tr><th>检查项</th><th>问题</th><th>具体解决方法</th></tr></thead><tbody><tr><th scope="row">main 嵌套</th><td>正常渲染存在两个嵌套 main。</td><td>保留唯一 <code>main</code>；内部纯布局容器改为 div。保持一个 H1。</td></tr><tr><th scope="row">time 日期</th><td><code>&lt;time&gt;Dec 13&lt;/time&gt;</code> 没有合法机器日期。</td><td>补 <code>datetime="2025-12-13"</code>，可见文字显示年份。其余条目同样处理。</td></tr><tr><th scope="row">按钮状态</th><td>Access / Assortment / Assurance 只有 active 样式。</td><td>button 增加 <code>aria-pressed</code> 和 <code>aria-controls</code>；切换时同步状态。服务端展示必要文本；不要只因视觉类似就强套 tabs。</td></tr><tr><th scope="row">动画副本</th><td>aria-hidden 轨道内仍有可聚焦的空名称链接。</td><td>副本只留装饰图片，不保留交互 a；原轨道保留真实链接、名称和 nofollow。</td></tr><tr><th scope="row">联系信息</th><td>页脚邮箱未明确联系语义。</td><td>Media contact 标题下用 address 包裹邮箱；标题、版权留在 address 外。</td></tr></tbody></table></div>
 <p class="note">现有 6 个具名 section、nav、重点报道 article、下载 a 均有实际用途。主内容 43 个 div、最大连续 4 层，不构成严重 div 嵌套问题；宽度与网格容器可保留。</p>
 <details><summary>HTML 结构示例：单一 main、新闻列表、日期与联系信息</summary><pre><code>&lt;main id="main-content"&gt;
   &lt;nav aria-label="Breadcrumb"&gt;
@@ -324,7 +397,7 @@ export default function NewsroomBreadcrumb({ homeUrl, pageUrl }) {
     }
   ]
 }</code></pre></details>
-<div class="assets"><a download="" href="GARVEE-Newsroom-Structured-Data-Implementation.zip">下载完整实施包 · 17 个文件</a><a href="implementation/README.md">字段映射与集成说明</a><a href="implementation/newsroom-schema.preview.html">完整 JSON-LD script</a></div>
+<div class="assets"><a download="" href="GARVEE-Newsroom-Structured-Data-Implementation.zip">下载完整实施包 · 18 个文件</a><a href="implementation/README.md">字段映射与集成说明</a><a href="implementation/newsroom-schema.preview.html">完整 JSON-LD script</a></div>
 </section>
 <section aria-labelledby="js-audit-title" id="js-audit"><div class="section-head"><span class="level">P0</span><h2 id="js-audit-title">JS 请求精简：只保留数据统计</h2></div>
 <p><strong>保留：</strong>基础 GA4、Consent、必要错误/CWV 监控和页面交互。<strong>移除：</strong>广告像素、再营销、弹窗、推荐、联盟、营销归因 SDK、客户识别、购物车探测和商店徽章。</p>

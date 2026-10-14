@@ -109,3 +109,17 @@ CollectionPage 已是 WebPage 子类型，不再复制一份同 URL 的 WebPage�
 用户范围：第三方只保留基础访问统计与必要监控，营销代码不进入新闻室。详细配置与触发证据见 newsroom-js-optimization.md、newsroom-js-audit-summary.json。
 
 从页面布局停止 Klaviyo/Convbox initializer、客户识别、冗余商城 analytics 和商店徽章；Web GTM 逐事件排除营销标签及序列依赖；sGTM 保留 Analytics 转发并阻止该页面的营销目的地。未取得应用源码及 GTM/sGTM 管理端，交付为已核查的实施规格，未执行线上删除。
+
+## 8. HTML 列表语义
+
+newsroom-list-markup.html 为可复制的 HTML 片段，含 3 条新闻稿、3 条媒体卡片与 Home → Newsroom 面包屑，不是完整新闻室页面。
+
+- 新闻稿、媒体卡片是并列条目，使用 ul > li；按日期倒序展示不必强改成 ol。
+- 面包屑体现导航层级，使用 nav > ol > li，当前页 aria-current=page；与 BreadcrumbList 顺序一致。
+- ul/ol 的直接条目用 li，不用 div 包裹 li；H3/a/time/p 放在 li 内。
+- 保留原有 grid 类并重置列表默认样式；隐藏项目符号的 ul 显式保留 role=list。
+- 单个 Featured 摘要可保留 article；纯布局 div 不机械改成列表。
+- 真实外部链接包含 nofollow；图片、下载等资源不因列表标记自动生成 Schema。
+- 片段内容应由页面展示数组动态生成；若启用 ItemList，两组 HTML 与 Schema 的标题、URL、数量、顺序必须一致。
+
+这项改善语义和可访问性，不承诺排名提升；已生成本地参考并更新报告，未修改 GARVEE 线上源码。
