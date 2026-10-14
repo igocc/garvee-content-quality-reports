@@ -1,0 +1,42 @@
+{
+  "homepage": "https://garvee.com/",
+  "image_url": "https://cdn.shopify.com/s/files/1/0724/6698/9369/files/7_b376f5da-2df9-46dc-b361-030a8faa697a.webp?v=1746696639&width=1200",
+  "http": 200,
+  "actual_width": 1200,
+  "actual_height": 675,
+  "content_negotiation": [
+    {
+      "accept": "*/*",
+      "http": 200,
+      "mime": "image/png",
+      "format": "PNG",
+      "width": 1200,
+      "height": 675,
+      "bytes": 78813,
+      "vary": "Accept"
+    },
+    {
+      "accept": "image/webp,image/*,*/*;q=0.8",
+      "http": 200,
+      "mime": "image/webp",
+      "format": "WEBP",
+      "width": 1200,
+      "height": 675,
+      "bytes": 21348,
+      "vary": "Accept"
+    }
+  ],
+  "favicon": {
+    "url": "https://www.garvee.com/favicon.ico",
+    "http": 200,
+    "mime": "image/x-icon",
+    "bytes": 57326,
+    "width": 700,
+    "height": 700,
+    "format": "PNG",
+    "embedded_sizes": null
+  },
+  "alt": "GARVEE logo",
+  "og_image_type": "omitted because the CDN negotiates PNG/WebP by Accept",
+  "applied_to": "reference OG and X metadata; GARVEE live newsroom not modified"
+}
