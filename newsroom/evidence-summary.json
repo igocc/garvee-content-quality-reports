@@ -1,0 +1,52 @@
+{
+  "audit_date": "2026-10-14",
+  "page_url": "https://a67y76j.garvee.com/pages/news-room",
+  "scope": "Saved HTTP response, same-build JS-disabled/enabled checks, rendered DOM; no website deployment",
+  "outbound_links": {
+    "external_http_anchor_count": 26,
+    "nofollow_pass_count": 26,
+    "unique_external_article_urls": 7
+  },
+  "ssr": {
+    "server_contains_core_content": true,
+    "core_content_initially_in_hidden_streaming_fragment": true,
+    "javascript_disabled_visible_body_characters": 0,
+    "classification": "Streaming server output depends on JS activation for visibility, not pure CSR"
+  },
+  "semantics": {
+    "nested_main_elements": 2,
+    "named_sections_with_valid_heading_references": 6,
+    "main_content_div_count": 43,
+    "max_consecutive_div_layers": 4
+  },
+  "schema_reference": {
+    "preview_graph_entities": 8,
+    "types": [
+      "Organization",
+      "ContactPoint",
+      "WebSite",
+      "CollectionPage",
+      "BreadcrumbList",
+      "ItemList (press releases)",
+      "ItemList (media coverage)",
+      "ImageObject"
+    ],
+    "deployed_to_garvee_site": false,
+    "online_validator_completed": false
+  },
+  "brand_asset_recheck": {
+    "page_status": 200,
+    "download_label": "Download logo SVG",
+    "download_url": "https://a67y76j.garvee.com/_next/static/media/garvee-wordmark-dark.1c864d52.svg",
+    "asset_status": 200,
+    "asset_mime": "image/svg+xml",
+    "asset_bytes": 1613,
+    "production_same_path_status": 404
+  },
+  "limits": [
+    "Snapshot measurements may refer to different explicitly recorded builds",
+    "Google index status and selected canonical not verified",
+    "No reliable CWV or Lighthouse score",
+    "Preview asset 200; equivalent production path 404"
+  ]
+}

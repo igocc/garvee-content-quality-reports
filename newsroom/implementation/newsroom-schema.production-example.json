@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.garvee.com/#organization",
+      "name": "GARVEE",
+      "url": "https://www.garvee.com/",
+      "contactPoint": {
+        "@id": "https://www.garvee.com/#press-contact"
+      }
+    },
+    {
+      "@type": "ContactPoint",
+      "@id": "https://www.garvee.com/#press-contact",
+      "contactType": "press inquiries",
+      "email": "branding@garvee.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.garvee.com/#website",
+      "name": "GARVEE",
+      "url": "https://www.garvee.com/",
+      "publisher": {
+        "@id": "https://www.garvee.com/#organization"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.garvee.com/pages/news-room#webpage",
+      "url": "https://www.garvee.com/pages/news-room",
+      "name": "GARVEE Newsroom",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://www.garvee.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.garvee.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.garvee.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.garvee.com/pages/news-room#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://www.garvee.com/pages/news-room#news"
+        },
+        {
+          "@id": "https://www.garvee.com/pages/news-room#coverage"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.garvee.com/pages/news-room#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://garvee.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Newsroom",
+          "item": "https://www.garvee.com/pages/news-room"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.garvee.com/pages/news-room#news",
+      "name": "GARVEE press releases",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "GARVEE.com Shares Key Observations on Late-Season Christmas Decorating Trends for 2025",
+          "url": "https://www.24-7pressrelease.com/press-release/529794/garveecom-shares-key-observations-on-late-season-christmas-decorating-trends-for-2025"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GARVEE.com Outlines 2025 Safety Standards for Ride On Toys Amid Holiday Shopping Surge",
+          "url": "https://www.24-7pressrelease.com/press-release/528803/garveecom-outlines-2025-safety-standards-for-ride-on-toys-amid-holiday-shopping-surge"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GARVEE.com Expands Cordless Outdoor Snow Pusher Lineup, Meeting Demand for Targeted Winter Snow Solutions",
+          "url": "https://www.24-7pressrelease.com/press-release/528503/garveecom-expands-cordless-outdoor-snow-pusher-lineup-meeting-demand-for-targeted-winter-snow-solutions"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.garvee.com/pages/news-room#coverage",
+      "name": "GARVEE media coverage",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "TechRadar — Up to 55% off Garvee air conditioners for summer cooling.",
+          "url": "https://www.techradar.com/computing/one-cool-deal-up-to-55-percent-off-air-conditioners-at-garvee"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tom’s Guide — Summer cooling coverage featuring Garvee air-conditioner offers.",
+          "url": "https://www.tomsguide.com/home/stay-cool-this-summer-with-up-to-55-percent-off-air-conditioners-at-garvee"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Homes & Gardens — Smart home climate-solution offers for staying cool this summer.",
+          "url": "https://www.homesandgardens.com/household/home-tech/garvee-summer-discounts-2026"
+        }
+      ]
+    }
+  ]
+}

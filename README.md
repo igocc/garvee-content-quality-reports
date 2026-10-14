@@ -11,3 +11,10 @@ DataForSEO 外链本次未查询，渲染 DOM 与真实 AI 平台引用未测量
 `reports/` 保存公开 JSON 与 Markdown。公开数据不包含本机路径、凭据、模型请求 ID 或计费信息。`render.py` 与本机审核服务使用同一 HTML 渲染模板；静态重建不调用模型或外部 API。
 
 运行 `python3 build.py`。GitHub Pages 从 main 分支根目录发布。刷新数据需重新执行本机审核并导出，网页不会自行改变冻结结论。
+
+
+## Newsroom SEO 审查
+
+https://igocc.github.io/garvee-content-quality-reports/newsroom/
+
+2026-10-14 审查快照：按优先级列出问题与实施方案，附结构化数据参考代码、链接／图片清单和已核查的证据摘要；未部署 GARVEE 网站。
