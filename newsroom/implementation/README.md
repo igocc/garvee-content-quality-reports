@@ -124,28 +124,8 @@ newsroom-list-markup.html 为可复制的 HTML 片段，含 3 条新闻稿、3 �
 
 这项改善语义和可访问性，不承诺排名提升；已生成本地参考并更新报告，未修改 GARVEE 线上源码。
 
-## 9. 复用官方首页 OG 图片
+## 9. 完整元数据代码
 
-newsroom-image-meta.html 中的 OG 与 X 图片统一使用官方首页现有 og:image 地址；newsroom-homepage-og-image.json 记录核验结果。
+`newsroom-meta.html` 已合并 title、description、OG/X 文字、首页真实图片地址、width=1200、height=675、alt 与 favicon。
 
-https://cdn.shopify.com/s/files/1/0724/6698/9369/files/7_b376f5da-2df9-46dc-b361-030a8faa697a.webp?v=1746696639&width=1200
-
-- 实测 HTTP 200、1200 × 675 px。og:image:width/height 必须写 1200/675，不能按设计建议写成 1200/630。
-- CDN Vary: Accept：通用请求返回 PNG（约 78.8 KB），支持 WebP 的请求返回 WebP（约 21.3 KB）。URL 的 .webp 后缀不能代替实际 MIME；不固定 og:image:type。
-- 图片实际为 GARVEE 字标；og:image:alt 与 twitter:image:alt 写 GARVEE logo，不把它描述为不存在的新闻室封面。
-- X 使用同一 URL 和 summary_large_image；上线实测裁切，不添加不存在的 twitter:image:width/height 标签。
-- 官方 favicon 地址也已确认 200；尺寸建议与当前图标区别如下。Apple 图标尚未确认存在，片段不加入虚构的活动标签。
-
-| 用途 | 本次使用／设计建议 |
-| --- | --- |
-| OG / X 分享图 | 当前共用首页真实 1200 × 675 px 图片 |
-| 新制作 OG 图（可选） | 1200 × 630 px，JPG/PNG |
-| 新制作 X 横图（可选） | 1200 × 600 px，JPG/PNG |
-| favicon | 建议 96 × 96 PNG；当前首页图标文件实际为 700 × 700 PNG，URL 后缀 .ico |
-| apple-touch-icon | 建议 180 × 180 PNG，真实文件上线后添加 |
-
-新分享图的尺寸是本页设计建议，不是协议固定尺寸要求。若以后另做图片，目标 300 KB 以内、关键内容至少留 60 px 边距。当前优先复用已验证首页图片，不生成额外图片。
-
-所有图片标签进入首次响应；页面和资源可被分享爬虫读取，避免重复 card/image 标签；更新后检查分享缓存与裁切。不要把该横幅自动替代 Organization.logo 或品牌下载 SVG。
-
-[Open Graph 图片属性](https://ogp.me/) · [Google favicon](https://developers.google.com/search/docs/appearance/favicon-in-search) · [Apple 图标标签](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+使用此完整文件；不重复追加 `newsroom-image-meta.html` 的同名标签。canonical/og:url 按正式新闻室地址配置。
